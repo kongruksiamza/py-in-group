@@ -1,0 +1,3957 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c9643599bf8646ee8da1992b3c7e22b4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c9643599bf8646ee8da1992b3c7e22b4" ></div>
+        
+</body>
+<script>    
+    
+            var map_c9643599bf8646ee8da1992b3c7e22b4 = L.map(
+                "map_c9643599bf8646ee8da1992b3c7e22b4",
+                {
+                    center: [13.736, 100.523],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1ca50fba49cb4c60b41f4108d57336c1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var marker_4cc0d43e36f34d7885195c3d4bf0028a = L.marker(
+                [13.732994, 100.488239],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_a56575e9a392431691fbdd4260ab2caf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4cc0d43e36f34d7885195c3d4bf0028a.setIcon(icon_a56575e9a392431691fbdd4260ab2caf);
+        
+    
+        var popup_4ee1fc6dc2284ddf811788352e646d2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae771e102844411f9dc7a47813ece6e4 = $(`<div id="html_ae771e102844411f9dc7a47813ece6e4" style="width: 100.0%; height: 100.0%;">AQI:109 <i>Level:4</i></div>`)[0];
+            popup_4ee1fc6dc2284ddf811788352e646d2b.setContent(html_ae771e102844411f9dc7a47813ece6e4);
+        
+
+        marker_4cc0d43e36f34d7885195c3d4bf0028a.bindPopup(popup_4ee1fc6dc2284ddf811788352e646d2b)
+        ;
+
+        
+    
+    
+            marker_4cc0d43e36f34d7885195c3d4bf0028a.bindTooltip(
+                `<div>
+                     มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4756b6dff3d4d4c909791e10cd52477 = L.marker(
+                [13.636514, 100.414262],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_e3c9d0997abb4d65847ac5f5dd1bf6a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e4756b6dff3d4d4c909791e10cd52477.setIcon(icon_e3c9d0997abb4d65847ac5f5dd1bf6a2);
+        
+    
+        var popup_4d252a300947494d80783701591b56a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80605b62aacb412fac227794bb0aac86 = $(`<div id="html_80605b62aacb412fac227794bb0aac86" style="width: 100.0%; height: 100.0%;">AQI:147 <i>Level:4</i></div>`)[0];
+            popup_4d252a300947494d80783701591b56a5.setContent(html_80605b62aacb412fac227794bb0aac86);
+        
+
+        marker_e4756b6dff3d4d4c909791e10cd52477.bindPopup(popup_4d252a300947494d80783701591b56a5)
+        ;
+
+        
+    
+    
+            marker_e4756b6dff3d4d4c909791e10cd52477.bindTooltip(
+                `<div>
+                     ริมถนนทางหลวงหมายเลข 3902 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80495111bcde4f98a5889e7215a9f076 = L.marker(
+                [13.666113, 100.605741],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_e0c4adf205c84df9a8983d409c1e3725 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_80495111bcde4f98a5889e7215a9f076.setIcon(icon_e0c4adf205c84df9a8983d409c1e3725);
+        
+    
+        var popup_de5747a52ec64de49b124e041d0d274e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6697501771bb4e90980489ae90710c35 = $(`<div id="html_6697501771bb4e90980489ae90710c35" style="width: 100.0%; height: 100.0%;">AQI:101 <i>Level:4</i></div>`)[0];
+            popup_de5747a52ec64de49b124e041d0d274e.setContent(html_6697501771bb4e90980489ae90710c35);
+        
+
+        marker_80495111bcde4f98a5889e7215a9f076.bindPopup(popup_de5747a52ec64de49b124e041d0d274e)
+        ;
+
+        
+    
+    
+            marker_80495111bcde4f98a5889e7215a9f076.bindTooltip(
+                `<div>
+                     กรมอุตุนิยมวิทยาบางนา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6786f377c7d6442ba477921e5d77ea42 = L.marker(
+                [13.779539, 100.645654],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_36d35375a00f423eb9682784c0bf9963 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6786f377c7d6442ba477921e5d77ea42.setIcon(icon_36d35375a00f423eb9682784c0bf9963);
+        
+    
+        var popup_539e01449c554f12812ed3c059e3c3b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8766f6366d55415f89cfafdd805cc65d = $(`<div id="html_8766f6366d55415f89cfafdd805cc65d" style="width: 100.0%; height: 100.0%;">AQI:88 <i>Level:3</i></div>`)[0];
+            popup_539e01449c554f12812ed3c059e3c3b8.setContent(html_8766f6366d55415f89cfafdd805cc65d);
+        
+
+        marker_6786f377c7d6442ba477921e5d77ea42.bindPopup(popup_539e01449c554f12812ed3c059e3c3b8)
+        ;
+
+        
+    
+    
+            marker_6786f377c7d6442ba477921e5d77ea42.bindTooltip(
+                `<div>
+                     เคหะชุมชนคลองจั่น
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f69150247afa4f74b334f45ca6972b11 = L.marker(
+                [13.775516, 100.569206],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_dca1c915f912467ab471363339b78930 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f69150247afa4f74b334f45ca6972b11.setIcon(icon_dca1c915f912467ab471363339b78930);
+        
+    
+        var popup_2bfc947b5b574bee8f3fb9b66db78333 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12efd128ce6145c2963bca88aef45a78 = $(`<div id="html_12efd128ce6145c2963bca88aef45a78" style="width: 100.0%; height: 100.0%;">AQI:96 <i>Level:3</i></div>`)[0];
+            popup_2bfc947b5b574bee8f3fb9b66db78333.setContent(html_12efd128ce6145c2963bca88aef45a78);
+        
+
+        marker_f69150247afa4f74b334f45ca6972b11.bindPopup(popup_2bfc947b5b574bee8f3fb9b66db78333)
+        ;
+
+        
+    
+    
+            marker_f69150247afa4f74b334f45ca6972b11.bindTooltip(
+                `<div>
+                     การเคหะชุมชนห้วยขวาง 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_265c3fb425f64a3ca4e2888a36a59391 = L.marker(
+                [13.708038, 100.547345],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_879e754d6aa34ac3bd9fb096e7d80aa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_265c3fb425f64a3ca4e2888a36a59391.setIcon(icon_879e754d6aa34ac3bd9fb096e7d80aa5);
+        
+    
+        var popup_24614cc1be9942179df32870bc1d0a82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f23791afb3f418281cd84c6d60b2160 = $(`<div id="html_9f23791afb3f418281cd84c6d60b2160" style="width: 100.0%; height: 100.0%;">AQI:96 <i>Level:3</i></div>`)[0];
+            popup_24614cc1be9942179df32870bc1d0a82.setContent(html_9f23791afb3f418281cd84c6d60b2160);
+        
+
+        marker_265c3fb425f64a3ca4e2888a36a59391.bindPopup(popup_24614cc1be9942179df32870bc1d0a82)
+        ;
+
+        
+    
+    
+            marker_265c3fb425f64a3ca4e2888a36a59391.bindTooltip(
+                `<div>
+                     โรงเรียนนนทรีวิทยา 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a2ad1349add49528f07140f931cbd81 = L.marker(
+                [13.729984, 100.536443],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_e3f41fded34d43978f8758658fe312c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8a2ad1349add49528f07140f931cbd81.setIcon(icon_e3f41fded34d43978f8758658fe312c1);
+        
+    
+        var popup_6f36ca879ba84afba7945fd7942d0243 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93a2b9b746a241a588592d7cf494a5e4 = $(`<div id="html_93a2b9b746a241a588592d7cf494a5e4" style="width: 100.0%; height: 100.0%;">AQI:109 <i>Level:4</i></div>`)[0];
+            popup_6f36ca879ba84afba7945fd7942d0243.setContent(html_93a2b9b746a241a588592d7cf494a5e4);
+        
+
+        marker_8a2ad1349add49528f07140f931cbd81.bindPopup(popup_6f36ca879ba84afba7945fd7942d0243)
+        ;
+
+        
+    
+    
+            marker_8a2ad1349add49528f07140f931cbd81.bindTooltip(
+                `<div>
+                     โรงพยาบาลจุฬาลงกรณ์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4bbfd23cf9a4c71b8479db5c50f3360 = L.marker(
+                [13.727557, 100.486604],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_3a69e75b6b154162bd94ce5cd29b35b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b4bbfd23cf9a4c71b8479db5c50f3360.setIcon(icon_3a69e75b6b154162bd94ce5cd29b35b1);
+        
+    
+        var popup_c1e73f5a0dfc4f08a87578256584e08f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f28add909b224648b40fe68ab6277a49 = $(`<div id="html_f28add909b224648b40fe68ab6277a49" style="width: 100.0%; height: 100.0%;">AQI:114 <i>Level:4</i></div>`)[0];
+            popup_c1e73f5a0dfc4f08a87578256584e08f.setContent(html_f28add909b224648b40fe68ab6277a49);
+        
+
+        marker_b4bbfd23cf9a4c71b8479db5c50f3360.bindPopup(popup_c1e73f5a0dfc4f08a87578256584e08f)
+        ;
+
+        
+    
+    
+            marker_b4bbfd23cf9a4c71b8479db5c50f3360.bindTooltip(
+                `<div>
+                     การไฟฟ้าย่อยธนบุรี 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7b8b5263fbb4f8db03809a3bf7578f7 = L.marker(
+                [13.795414, 100.592899],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_df9dbe54bdd84de4a9b6dc674b38f8af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e7b8b5263fbb4f8db03809a3bf7578f7.setIcon(icon_df9dbe54bdd84de4a9b6dc674b38f8af);
+        
+    
+        var popup_d96f0f22f3f94bd084b5e7d6f986d6ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3bed8af34ca45438f3001e95aa12e25 = $(`<div id="html_d3bed8af34ca45438f3001e95aa12e25" style="width: 100.0%; height: 100.0%;">AQI:121 <i>Level:4</i></div>`)[0];
+            popup_d96f0f22f3f94bd084b5e7d6f986d6ba.setContent(html_d3bed8af34ca45438f3001e95aa12e25);
+        
+
+        marker_e7b8b5263fbb4f8db03809a3bf7578f7.bindPopup(popup_d96f0f22f3f94bd084b5e7d6f986d6ba)
+        ;
+
+        
+    
+    
+            marker_e7b8b5263fbb4f8db03809a3bf7578f7.bindTooltip(
+                `<div>
+                     สถานีตำรวจนครบาลโชคชัย 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e9a018e6dd44827a6c3bc52e102ca52 = L.marker(
+                [13.762609, 100.550361],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_84a2dcd81fea4e06ac41e008705e0074 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2e9a018e6dd44827a6c3bc52e102ca52.setIcon(icon_84a2dcd81fea4e06ac41e008705e0074);
+        
+    
+        var popup_527d6e79ae32465c93cad05639240908 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b74c1556903843fba371482e69c79dfe = $(`<div id="html_b74c1556903843fba371482e69c79dfe" style="width: 100.0%; height: 100.0%;">AQI:144 <i>Level:4</i></div>`)[0];
+            popup_527d6e79ae32465c93cad05639240908.setContent(html_b74c1556903843fba371482e69c79dfe);
+        
+
+        marker_2e9a018e6dd44827a6c3bc52e102ca52.bindPopup(popup_527d6e79ae32465c93cad05639240908)
+        ;
+
+        
+    
+    
+            marker_2e9a018e6dd44827a6c3bc52e102ca52.bindTooltip(
+                `<div>
+                     การเคหะชุมชนดินแดง 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4902d1e57f0e467f9cb0c71609e1b7b6 = L.marker(
+                [13.783143, 100.540529],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_337c1f8bae8046b892d3f01daaea2d33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4902d1e57f0e467f9cb0c71609e1b7b6.setIcon(icon_337c1f8bae8046b892d3f01daaea2d33);
+        
+    
+        var popup_fc628f4f034247d9b2f670e441d75dfd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd8ae8fe6cab483ba785fd0a4ab33757 = $(`<div id="html_bd8ae8fe6cab483ba785fd0a4ab33757" style="width: 100.0%; height: 100.0%;">AQI:92 <i>Level:3</i></div>`)[0];
+            popup_fc628f4f034247d9b2f670e441d75dfd.setContent(html_bd8ae8fe6cab483ba785fd0a4ab33757);
+        
+
+        marker_4902d1e57f0e467f9cb0c71609e1b7b6.bindPopup(popup_fc628f4f034247d9b2f670e441d75dfd)
+        ;
+
+        
+    
+    
+            marker_4902d1e57f0e467f9cb0c71609e1b7b6.bindTooltip(
+                `<div>
+                     กรมประชาสัมพันธ์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8aa541f51eb841b88eb4020c14582297 = L.marker(
+                [13.76963, 100.614562],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_5d96659122f745e0a52cc455362d8750 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8aa541f51eb841b88eb4020c14582297.setIcon(icon_5d96659122f745e0a52cc455362d8750);
+        
+    
+        var popup_e61cbaabd1744b85b016dec1c239ed66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26e4dd2e0a9542bfae125943a5a954a5 = $(`<div id="html_26e4dd2e0a9542bfae125943a5a954a5" style="width: 100.0%; height: 100.0%;">AQI:111 <i>Level:4</i></div>`)[0];
+            popup_e61cbaabd1744b85b016dec1c239ed66.setContent(html_26e4dd2e0a9542bfae125943a5a954a5);
+        
+
+        marker_8aa541f51eb841b88eb4020c14582297.bindPopup(popup_e61cbaabd1744b85b016dec1c239ed66)
+        ;
+
+        
+    
+    
+            marker_8aa541f51eb841b88eb4020c14582297.bindTooltip(
+                `<div>
+                     โรงเรียนบดินทรเดชา (สิงห์ สิงหเสนี) 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5c45e044cc040ba8dafd23ccef4899f = L.marker(
+                [13.7619223, 100.558606],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_0bd0e70fff7144fd87152854d2fc6c4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a5c45e044cc040ba8dafd23ccef4899f.setIcon(icon_0bd0e70fff7144fd87152854d2fc6c4f);
+        
+    
+        var popup_f61ea875f72249b8ac497845a8906455 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ba83ac80011427491e36c963a6fd38d = $(`<div id="html_3ba83ac80011427491e36c963a6fd38d" style="width: 100.0%; height: 100.0%;">AQI:12 <i>Level:1</i></div>`)[0];
+            popup_f61ea875f72249b8ac497845a8906455.setContent(html_3ba83ac80011427491e36c963a6fd38d);
+        
+
+        marker_a5c45e044cc040ba8dafd23ccef4899f.bindPopup(popup_f61ea875f72249b8ac497845a8906455)
+        ;
+
+        
+    
+    
+            marker_a5c45e044cc040ba8dafd23ccef4899f.bindTooltip(
+                `<div>
+                     สำนักงานเขตดินแดง กรุงเทพฯ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae5c32ba4a574300b1e8be3b48122e37 = L.marker(
+                [13.691511, 100.61457],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_e7723e1aa2ea4155aa5567193bd710fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ae5c32ba4a574300b1e8be3b48122e37.setIcon(icon_e7723e1aa2ea4155aa5567193bd710fc);
+        
+    
+        var popup_3f6f9f42d90e451fb41bd9a5e9200e26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff411ba48deb4544b4df0cc3c62d423a = $(`<div id="html_ff411ba48deb4544b4df0cc3c62d423a" style="width: 100.0%; height: 100.0%;">AQI:85 <i>Level:3</i></div>`)[0];
+            popup_3f6f9f42d90e451fb41bd9a5e9200e26.setContent(html_ff411ba48deb4544b4df0cc3c62d423a);
+        
+
+        marker_ae5c32ba4a574300b1e8be3b48122e37.bindPopup(popup_3f6f9f42d90e451fb41bd9a5e9200e26)
+        ;
+
+        
+    
+    
+            marker_ae5c32ba4a574300b1e8be3b48122e37.bindTooltip(
+                `<div>
+                     สำนักงานเขตพระโขนง กรุงเทพฯ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffef6927dcc646e89fc9f045f4871faa = L.marker(
+                [13.6821364, 100.5060513],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_8c0bdbd696c04ee996f72bc73ca30678 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ffef6927dcc646e89fc9f045f4871faa.setIcon(icon_8c0bdbd696c04ee996f72bc73ca30678);
+        
+    
+        var popup_16dc433954e540868c0d6bd3b18e48bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1b6064c4b4942d18925c71d19a9ad40 = $(`<div id="html_c1b6064c4b4942d18925c71d19a9ad40" style="width: 100.0%; height: 100.0%;">AQI:109 <i>Level:4</i></div>`)[0];
+            popup_16dc433954e540868c0d6bd3b18e48bb.setContent(html_c1b6064c4b4942d18925c71d19a9ad40);
+        
+
+        marker_ffef6927dcc646e89fc9f045f4871faa.bindPopup(popup_16dc433954e540868c0d6bd3b18e48bb)
+        ;
+
+        
+    
+    
+            marker_ffef6927dcc646e89fc9f045f4871faa.bindTooltip(
+                `<div>
+                     สำนักงานเขตราษฎร์บูรณะ กรุงเทพฯ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7f7a0473c1c4df5aaf657b25b770e4a = L.marker(
+                [13.7590851, 100.5345788],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_1904382545be46ea820316a621ec767b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e7f7a0473c1c4df5aaf657b25b770e4a.setIcon(icon_1904382545be46ea820316a621ec767b);
+        
+    
+        var popup_1cf1e47d69064d938f06e2a8b986a3d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2f7f09a78014ed8b53091625e22cfb9 = $(`<div id="html_b2f7f09a78014ed8b53091625e22cfb9" style="width: 100.0%; height: 100.0%;">AQI:76 <i>Level:3</i></div>`)[0];
+            popup_1cf1e47d69064d938f06e2a8b986a3d9.setContent(html_b2f7f09a78014ed8b53091625e22cfb9);
+        
+
+        marker_e7f7a0473c1c4df5aaf657b25b770e4a.bindPopup(popup_1cf1e47d69064d938f06e2a8b986a3d9)
+        ;
+
+        
+    
+    
+            marker_e7f7a0473c1c4df5aaf657b25b770e4a.bindTooltip(
+                `<div>
+                     สำนักงานเขตราชเทวี กรุงเทพฯ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8e52dfc45bf4c748ec80497332c997c = L.marker(
+                [13.785212, 100.669183],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_bfa23150abcb4ed3a717e7691f867d9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e8e52dfc45bf4c748ec80497332c997c.setIcon(icon_bfa23150abcb4ed3a717e7691f867d9e);
+        
+    
+        var popup_03819d6314b64ebf98e6047a46ff17c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7867342e6c594bcb9dc7502c65f23296 = $(`<div id="html_7867342e6c594bcb9dc7502c65f23296" style="width: 100.0%; height: 100.0%;">AQI:167 <i>Level:4</i></div>`)[0];
+            popup_03819d6314b64ebf98e6047a46ff17c6.setContent(html_7867342e6c594bcb9dc7502c65f23296);
+        
+
+        marker_e8e52dfc45bf4c748ec80497332c997c.bindPopup(popup_03819d6314b64ebf98e6047a46ff17c6)
+        ;
+
+        
+    
+    
+            marker_e8e52dfc45bf4c748ec80497332c997c.bindTooltip(
+                `<div>
+                     สำนักงานเขตบึงกุ่ม
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71a91a4376854d92a9cde56828adbe18 = L.marker(
+                [13.859911, 100.704002],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_3b70046ae43a48e6bff8a7050ac98f5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_71a91a4376854d92a9cde56828adbe18.setIcon(icon_3b70046ae43a48e6bff8a7050ac98f5c);
+        
+    
+        var popup_8a441eb5e4634bcfa5649ad0871df51d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_025a43b98a7b4fec9a5ca8614f1cac2d = $(`<div id="html_025a43b98a7b4fec9a5ca8614f1cac2d" style="width: 100.0%; height: 100.0%;">AQI:137 <i>Level:4</i></div>`)[0];
+            popup_8a441eb5e4634bcfa5649ad0871df51d.setContent(html_025a43b98a7b4fec9a5ca8614f1cac2d);
+        
+
+        marker_71a91a4376854d92a9cde56828adbe18.bindPopup(popup_8a441eb5e4634bcfa5649ad0871df51d)
+        ;
+
+        
+    
+    
+            marker_71a91a4376854d92a9cde56828adbe18.bindTooltip(
+                `<div>
+                     สำนักงานเขตคลองสามวา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c641e1d702d9485894528ee9a171aad3 = L.marker(
+                [13.677757, 100.483861],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_f135d718e15f4b22b147365bec3a3bf4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_c641e1d702d9485894528ee9a171aad3.setIcon(icon_f135d718e15f4b22b147365bec3a3bf4);
+        
+    
+        var popup_ee66dc0285084922964ee2b070f25183 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d6f6bea648947df856c78aea3e8c0cb = $(`<div id="html_3d6f6bea648947df856c78aea3e8c0cb" style="width: 100.0%; height: 100.0%;">AQI:-1 <i>Level:0</i></div>`)[0];
+            popup_ee66dc0285084922964ee2b070f25183.setContent(html_3d6f6bea648947df856c78aea3e8c0cb);
+        
+
+        marker_c641e1d702d9485894528ee9a171aad3.bindPopup(popup_ee66dc0285084922964ee2b070f25183)
+        ;
+
+        
+    
+    
+            marker_c641e1d702d9485894528ee9a171aad3.bindTooltip(
+                `<div>
+                     สำนักงานเขตจอมทอง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30a41160cdbd4f72bdd148e7e0e9e945 = L.marker(
+                [13.793965, 100.504956],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_fdce58065a5c4f07af8af213db0165ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_30a41160cdbd4f72bdd148e7e0e9e945.setIcon(icon_fdce58065a5c4f07af8af213db0165ad);
+        
+    
+        var popup_0240a862f2f042e7913bf5af9dc07f07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c09822ee7f7946d6ab7dbc37fe5c4c3e = $(`<div id="html_c09822ee7f7946d6ab7dbc37fe5c4c3e" style="width: 100.0%; height: 100.0%;">AQI:129 <i>Level:4</i></div>`)[0];
+            popup_0240a862f2f042e7913bf5af9dc07f07.setContent(html_c09822ee7f7946d6ab7dbc37fe5c4c3e);
+        
+
+        marker_30a41160cdbd4f72bdd148e7e0e9e945.bindPopup(popup_0240a862f2f042e7913bf5af9dc07f07)
+        ;
+
+        
+    
+    
+            marker_30a41160cdbd4f72bdd148e7e0e9e945.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางพลัด
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79816abb35a84a2289bb4bb6e7bd390a = L.marker(
+                [13.696314, 100.409049],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_07bc736eca5e434bbf3d8ebb1d4c3a6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_79816abb35a84a2289bb4bb6e7bd390a.setIcon(icon_07bc736eca5e434bbf3d8ebb1d4c3a6d);
+        
+    
+        var popup_d5da8e0b0492436da818b85c19270f1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21efd2710e2f407793c37d3f5ec6b2b9 = $(`<div id="html_21efd2710e2f407793c37d3f5ec6b2b9" style="width: 100.0%; height: 100.0%;">AQI:61 <i>Level:3</i></div>`)[0];
+            popup_d5da8e0b0492436da818b85c19270f1a.setContent(html_21efd2710e2f407793c37d3f5ec6b2b9);
+        
+
+        marker_79816abb35a84a2289bb4bb6e7bd390a.bindPopup(popup_d5da8e0b0492436da818b85c19270f1a)
+        ;
+
+        
+    
+    
+            marker_79816abb35a84a2289bb4bb6e7bd390a.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางแค
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d57a9890149441659b9a829bd98537d6 = L.marker(
+                [13.659908, 100.435902],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_10b31ee980be44a1abbbac8c6d400ffe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d57a9890149441659b9a829bd98537d6.setIcon(icon_10b31ee980be44a1abbbac8c6d400ffe);
+        
+    
+        var popup_e35d7d5ac7914254a82dac302ea003bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68ac6f2dcca2457dac4f98e9c962a862 = $(`<div id="html_68ac6f2dcca2457dac4f98e9c962a862" style="width: 100.0%; height: 100.0%;">AQI:144 <i>Level:4</i></div>`)[0];
+            popup_e35d7d5ac7914254a82dac302ea003bf.setContent(html_68ac6f2dcca2457dac4f98e9c962a862);
+        
+
+        marker_d57a9890149441659b9a829bd98537d6.bindPopup(popup_e35d7d5ac7914254a82dac302ea003bf)
+        ;
+
+        
+    
+    
+            marker_d57a9890149441659b9a829bd98537d6.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางขุนเทียน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9895064e5b1b44e48659c369aaa55c26 = L.marker(
+                [13.776664, 100.520982],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_2173b75de59f4bdb987c9d0fba863134 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9895064e5b1b44e48659c369aaa55c26.setIcon(icon_2173b75de59f4bdb987c9d0fba863134);
+        
+    
+        var popup_f10eefdf8c934dadaf34019096bd71a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee20807915794d19b108efd2a862e88c = $(`<div id="html_ee20807915794d19b108efd2a862e88c" style="width: 100.0%; height: 100.0%;">AQI:66 <i>Level:3</i></div>`)[0];
+            popup_f10eefdf8c934dadaf34019096bd71a3.setContent(html_ee20807915794d19b108efd2a862e88c);
+        
+
+        marker_9895064e5b1b44e48659c369aaa55c26.bindPopup(popup_f10eefdf8c934dadaf34019096bd71a3)
+        ;
+
+        
+    
+    
+            marker_9895064e5b1b44e48659c369aaa55c26.bindTooltip(
+                `<div>
+                     สำนักงานเขตดุสิต
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a27f47a309014439aab27445a660168c = L.marker(
+                [13.737136, 100.512734],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_2363669e9d904babaf1c019b2b340a7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a27f47a309014439aab27445a660168c.setIcon(icon_2363669e9d904babaf1c019b2b340a7c);
+        
+    
+        var popup_d4bfb77c5e564d1b97757b575e7a65dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7d20a1541a4401cb061df2b16474821 = $(`<div id="html_a7d20a1541a4401cb061df2b16474821" style="width: 100.0%; height: 100.0%;">AQI:119 <i>Level:4</i></div>`)[0];
+            popup_d4bfb77c5e564d1b97757b575e7a65dd.setContent(html_a7d20a1541a4401cb061df2b16474821);
+        
+
+        marker_a27f47a309014439aab27445a660168c.bindPopup(popup_d4bfb77c5e564d1b97757b575e7a65dd)
+        ;
+
+        
+    
+    
+            marker_a27f47a309014439aab27445a660168c.bindTooltip(
+                `<div>
+                     สำนักงานเขตสัมพันธวงศ์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a3a80c89a7a4bc6aaac187556c6ffb2 = L.marker(
+                [13.783554, 100.5344645],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_01be2ba3b69047f9a5eb1af00be33d53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a3a80c89a7a4bc6aaac187556c6ffb2.setIcon(icon_01be2ba3b69047f9a5eb1af00be33d53);
+        
+    
+        var popup_8940dfae621b4b19b9b107e494f5c4d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_464d8bb4a82540bf9a865a06380d4e87 = $(`<div id="html_464d8bb4a82540bf9a865a06380d4e87" style="width: 100.0%; height: 100.0%;">AQI:116 <i>Level:4</i></div>`)[0];
+            popup_8940dfae621b4b19b9b107e494f5c4d9.setContent(html_464d8bb4a82540bf9a865a06380d4e87);
+        
+
+        marker_4a3a80c89a7a4bc6aaac187556c6ffb2.bindPopup(popup_8940dfae621b4b19b9b107e494f5c4d9)
+        ;
+
+        
+    
+    
+            marker_4a3a80c89a7a4bc6aaac187556c6ffb2.bindTooltip(
+                `<div>
+                     สำนักงานเขตพญาไท
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3280a084bbb84748bc03851e970e5a37 = L.marker(
+                [13.778981, 100.622294],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_af997eb519d74c5ea45e043da78e5582 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3280a084bbb84748bc03851e970e5a37.setIcon(icon_af997eb519d74c5ea45e043da78e5582);
+        
+    
+        var popup_d56d62b5147540229965d7829efa6b06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b48cd82ea56643b9bf6aaec7f9d94d5f = $(`<div id="html_b48cd82ea56643b9bf6aaec7f9d94d5f" style="width: 100.0%; height: 100.0%;">AQI:149 <i>Level:4</i></div>`)[0];
+            popup_d56d62b5147540229965d7829efa6b06.setContent(html_b48cd82ea56643b9bf6aaec7f9d94d5f);
+        
+
+        marker_3280a084bbb84748bc03851e970e5a37.bindPopup(popup_d56d62b5147540229965d7829efa6b06)
+        ;
+
+        
+    
+    
+            marker_3280a084bbb84748bc03851e970e5a37.bindTooltip(
+                `<div>
+                     สำนักงานเขตวังทองหลาง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea562d20eac24be8afb79d2b9d6ec14b = L.marker(
+                [13.733136, 100.52829],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_d008c05d6be345d2bd742468d4ec635a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea562d20eac24be8afb79d2b9d6ec14b.setIcon(icon_d008c05d6be345d2bd742468d4ec635a);
+        
+    
+        var popup_a86b933572c34c14a7332779092ff272 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7e34721a5cc48f2b73ca5a7ec609ac0 = $(`<div id="html_b7e34721a5cc48f2b73ca5a7ec609ac0" style="width: 100.0%; height: 100.0%;">AQI:131 <i>Level:4</i></div>`)[0];
+            popup_a86b933572c34c14a7332779092ff272.setContent(html_b7e34721a5cc48f2b73ca5a7ec609ac0);
+        
+
+        marker_ea562d20eac24be8afb79d2b9d6ec14b.bindPopup(popup_a86b933572c34c14a7332779092ff272)
+        ;
+
+        
+    
+    
+            marker_ea562d20eac24be8afb79d2b9d6ec14b.bindTooltip(
+                `<div>
+                     สำนักงานเขตปทุมวัน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7beb3bf591f04c998975fe254c3b5598 = L.marker(
+                [13.726136, 100.528055],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_077d68540d7c4265b475ad9d1a839267 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7beb3bf591f04c998975fe254c3b5598.setIcon(icon_077d68540d7c4265b475ad9d1a839267);
+        
+    
+        var popup_3350a8c839fe40738a9272a4d2e09fe2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25d4b2c7723048b98622a22afb304d1a = $(`<div id="html_25d4b2c7723048b98622a22afb304d1a" style="width: 100.0%; height: 100.0%;">AQI:116 <i>Level:4</i></div>`)[0];
+            popup_3350a8c839fe40738a9272a4d2e09fe2.setContent(html_25d4b2c7723048b98622a22afb304d1a);
+        
+
+        marker_7beb3bf591f04c998975fe254c3b5598.bindPopup(popup_3350a8c839fe40738a9272a4d2e09fe2)
+        ;
+
+        
+    
+    
+            marker_7beb3bf591f04c998975fe254c3b5598.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางรัก
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4e8a750255c4abb90a5c4ac38366af2 = L.marker(
+                [13.707763, 100.526787],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_ff47c828f2bc4d60a3f29bcd07029b1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d4e8a750255c4abb90a5c4ac38366af2.setIcon(icon_ff47c828f2bc4d60a3f29bcd07029b1b);
+        
+    
+        var popup_dbe504ab81284ea78c9f53efe659dcc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f72fe47f6c4b43f49b7f2fac8fc7a4c1 = $(`<div id="html_f72fe47f6c4b43f49b7f2fac8fc7a4c1" style="width: 100.0%; height: 100.0%;">AQI:114 <i>Level:4</i></div>`)[0];
+            popup_dbe504ab81284ea78c9f53efe659dcc2.setContent(html_f72fe47f6c4b43f49b7f2fac8fc7a4c1);
+        
+
+        marker_d4e8a750255c4abb90a5c4ac38366af2.bindPopup(popup_dbe504ab81284ea78c9f53efe659dcc2)
+        ;
+
+        
+    
+    
+            marker_d4e8a750255c4abb90a5c4ac38366af2.bindTooltip(
+                `<div>
+                     สำนักงานเขตสาทร
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ef4c0848c0149a6820acb2bfe10902e = L.marker(
+                [13.697252, 100.497185],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_b7b34f13bc6a473093ffe7013bfcd5a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1ef4c0848c0149a6820acb2bfe10902e.setIcon(icon_b7b34f13bc6a473093ffe7013bfcd5a1);
+        
+    
+        var popup_37c09ae6cef44a7eac24a03ea91e505a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97a04a80be30471d80d842959578924c = $(`<div id="html_97a04a80be30471d80d842959578924c" style="width: 100.0%; height: 100.0%;">AQI:142 <i>Level:4</i></div>`)[0];
+            popup_37c09ae6cef44a7eac24a03ea91e505a.setContent(html_97a04a80be30471d80d842959578924c);
+        
+
+        marker_1ef4c0848c0149a6820acb2bfe10902e.bindPopup(popup_37c09ae6cef44a7eac24a03ea91e505a)
+        ;
+
+        
+    
+    
+            marker_1ef4c0848c0149a6820acb2bfe10902e.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางคอแหลม
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30ca7fc752a64d8099b3a3c2c859958a = L.marker(
+                [13.679226, 100.54687],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_293e07e842b144bb9d316519044fda33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_30ca7fc752a64d8099b3a3c2c859958a.setIcon(icon_293e07e842b144bb9d316519044fda33);
+        
+    
+        var popup_2c6a9dcce2944eeb88ffa6ee8b9b199c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa39e241cdc94d2389e24a1fda4cedd2 = $(`<div id="html_aa39e241cdc94d2389e24a1fda4cedd2" style="width: 100.0%; height: 100.0%;">AQI:144 <i>Level:4</i></div>`)[0];
+            popup_2c6a9dcce2944eeb88ffa6ee8b9b199c.setContent(html_aa39e241cdc94d2389e24a1fda4cedd2);
+        
+
+        marker_30ca7fc752a64d8099b3a3c2c859958a.bindPopup(popup_2c6a9dcce2944eeb88ffa6ee8b9b199c)
+        ;
+
+        
+    
+    
+            marker_30ca7fc752a64d8099b3a3c2c859958a.bindTooltip(
+                `<div>
+                     สำนักงานเขตยานนาวา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57b2f92ea4764689afeb9f572d257b61 = L.marker(
+                [13.722096, 100.584559],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_2fd3a5bf0cb1443fb1f77107350b13eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_57b2f92ea4764689afeb9f572d257b61.setIcon(icon_2fd3a5bf0cb1443fb1f77107350b13eb);
+        
+    
+        var popup_1b3d07dc530345c6b949b7fe05821599 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd89c7729d8845f7abdc2325add30ca7 = $(`<div id="html_cd89c7729d8845f7abdc2325add30ca7" style="width: 100.0%; height: 100.0%;">AQI:114 <i>Level:4</i></div>`)[0];
+            popup_1b3d07dc530345c6b949b7fe05821599.setContent(html_cd89c7729d8845f7abdc2325add30ca7);
+        
+
+        marker_57b2f92ea4764689afeb9f572d257b61.bindPopup(popup_1b3d07dc530345c6b949b7fe05821599)
+        ;
+
+        
+    
+    
+            marker_57b2f92ea4764689afeb9f572d257b61.bindTooltip(
+                `<div>
+                     สำนักงานเขตวัฒนา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccdba9e41c9645e4a54cc10b7723a8e9 = L.marker(
+                [13.731051, 100.651705],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_dcf87954e3624cb29092442b662bf06a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ccdba9e41c9645e4a54cc10b7723a8e9.setIcon(icon_dcf87954e3624cb29092442b662bf06a);
+        
+    
+        var popup_69d24056e1284a07a08a37058348147b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b292267ecbc4f039c93367344c778dd = $(`<div id="html_7b292267ecbc4f039c93367344c778dd" style="width: 100.0%; height: 100.0%;">AQI:109 <i>Level:4</i></div>`)[0];
+            popup_69d24056e1284a07a08a37058348147b.setContent(html_7b292267ecbc4f039c93367344c778dd);
+        
+
+        marker_ccdba9e41c9645e4a54cc10b7723a8e9.bindPopup(popup_69d24056e1284a07a08a37058348147b)
+        ;
+
+        
+    
+    
+            marker_ccdba9e41c9645e4a54cc10b7723a8e9.bindTooltip(
+                `<div>
+                     สำนักงานเขตสวนหลวง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ed09b95d39e4f3e83c6e7e2ab934e79 = L.marker(
+                [13.667987, 100.635313],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_bd57b4fdef9c4916987835c32fb9caa6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6ed09b95d39e4f3e83c6e7e2ab934e79.setIcon(icon_bd57b4fdef9c4916987835c32fb9caa6);
+        
+    
+        var popup_1de7b53970314129bedb81fec4f2f3c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46313e8be8b3423cb899104f15ff1496 = $(`<div id="html_46313e8be8b3423cb899104f15ff1496" style="width: 100.0%; height: 100.0%;">AQI:81 <i>Level:3</i></div>`)[0];
+            popup_1de7b53970314129bedb81fec4f2f3c5.setContent(html_46313e8be8b3423cb899104f15ff1496);
+        
+
+        marker_6ed09b95d39e4f3e83c6e7e2ab934e79.bindPopup(popup_1de7b53970314129bedb81fec4f2f3c5)
+        ;
+
+        
+    
+    
+            marker_6ed09b95d39e4f3e83c6e7e2ab934e79.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางนา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55217d4e0b6e4ca8bd3e8d28918a57d5 = L.marker(
+                [13.839923, 100.575632],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_35e24ccb3e9c429a9e02cd14c16deb25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_55217d4e0b6e4ca8bd3e8d28918a57d5.setIcon(icon_35e24ccb3e9c429a9e02cd14c16deb25);
+        
+    
+        var popup_b49ae58fdf2d4e438d949bf357f76474 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c48fe66e62064c6a9f56b1b1eed25598 = $(`<div id="html_c48fe66e62064c6a9f56b1b1eed25598" style="width: 100.0%; height: 100.0%;">AQI:111 <i>Level:4</i></div>`)[0];
+            popup_b49ae58fdf2d4e438d949bf357f76474.setContent(html_c48fe66e62064c6a9f56b1b1eed25598);
+        
+
+        marker_55217d4e0b6e4ca8bd3e8d28918a57d5.bindPopup(popup_b49ae58fdf2d4e438d949bf357f76474)
+        ;
+
+        
+    
+    
+            marker_55217d4e0b6e4ca8bd3e8d28918a57d5.bindTooltip(
+                `<div>
+                     สำนักงานเขตจตุจักร
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c892746f88564af88a565356be345de5 = L.marker(
+                [13.910986, 100.594877],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_5a19f7b3f982472a8d511b5af0611652 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c892746f88564af88a565356be345de5.setIcon(icon_5a19f7b3f982472a8d511b5af0611652);
+        
+    
+        var popup_3252c6096a6d4b1db912dd0deeb10001 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e77b7ae758d4b5db30c65ca7ad7de43 = $(`<div id="html_4e77b7ae758d4b5db30c65ca7ad7de43" style="width: 100.0%; height: 100.0%;">AQI:74 <i>Level:3</i></div>`)[0];
+            popup_3252c6096a6d4b1db912dd0deeb10001.setContent(html_4e77b7ae758d4b5db30c65ca7ad7de43);
+        
+
+        marker_c892746f88564af88a565356be345de5.bindPopup(popup_3252c6096a6d4b1db912dd0deeb10001)
+        ;
+
+        
+    
+    
+            marker_c892746f88564af88a565356be345de5.bindTooltip(
+                `<div>
+                     สำนักงานเขตดอนเมือง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08dcfdf225074881b3d0fee0b97fdb80 = L.marker(
+                [13.896035, 100.660628],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_ffbbcbf93bcc41ebb65b9203e676dcad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_08dcfdf225074881b3d0fee0b97fdb80.setIcon(icon_ffbbcbf93bcc41ebb65b9203e676dcad);
+        
+    
+        var popup_fd3daa77c7ce43918901855132cb672e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_428fc33659dc4080be2e2b7dd2caf9f3 = $(`<div id="html_428fc33659dc4080be2e2b7dd2caf9f3" style="width: 100.0%; height: 100.0%;">AQI:111 <i>Level:4</i></div>`)[0];
+            popup_fd3daa77c7ce43918901855132cb672e.setContent(html_428fc33659dc4080be2e2b7dd2caf9f3);
+        
+
+        marker_08dcfdf225074881b3d0fee0b97fdb80.bindPopup(popup_fd3daa77c7ce43918901855132cb672e)
+        ;
+
+        
+    
+    
+            marker_08dcfdf225074881b3d0fee0b97fdb80.bindTooltip(
+                `<div>
+                     สำนักงานเขตสายไหม
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd6e906520724e3e9df9ea68033bbc5a = L.marker(
+                [13.766478, 100.647785],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_1a7c8d819b2a4ba9a1145f6c62b506f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fd6e906520724e3e9df9ea68033bbc5a.setIcon(icon_1a7c8d819b2a4ba9a1145f6c62b506f3);
+        
+    
+        var popup_46a555f7d5b74878b35ed2c15cf4e0db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f53e76e76375463aa37a0ef222e18f9c = $(`<div id="html_f53e76e76375463aa37a0ef222e18f9c" style="width: 100.0%; height: 100.0%;">AQI:139 <i>Level:4</i></div>`)[0];
+            popup_46a555f7d5b74878b35ed2c15cf4e0db.setContent(html_f53e76e76375463aa37a0ef222e18f9c);
+        
+
+        marker_fd6e906520724e3e9df9ea68033bbc5a.bindPopup(popup_46a555f7d5b74878b35ed2c15cf4e0db)
+        ;
+
+        
+    
+    
+            marker_fd6e906520724e3e9df9ea68033bbc5a.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางกะปิ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5d99f3a6f5846e9990ca68f45639474 = L.marker(
+                [13.799395, 100.682464],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_d3ca94659e5c4f0ca2606cbfa047c9fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b5d99f3a6f5846e9990ca68f45639474.setIcon(icon_d3ca94659e5c4f0ca2606cbfa047c9fb);
+        
+    
+        var popup_611ff48def574ce89e7ece48309fd827 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e311245a7d54924b57c885d1ab2453e = $(`<div id="html_0e311245a7d54924b57c885d1ab2453e" style="width: 100.0%; height: 100.0%;">AQI:94 <i>Level:3</i></div>`)[0];
+            popup_611ff48def574ce89e7ece48309fd827.setContent(html_0e311245a7d54924b57c885d1ab2453e);
+        
+
+        marker_b5d99f3a6f5846e9990ca68f45639474.bindPopup(popup_611ff48def574ce89e7ece48309fd827)
+        ;
+
+        
+    
+    
+            marker_b5d99f3a6f5846e9990ca68f45639474.bindTooltip(
+                `<div>
+                     สำนักงานเขตคันนายาว
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e6d2d3ec8a441779fbf54d22b5913d1 = L.marker(
+                [13.72205, 100.784069],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_59866beca2a24bb29a85c122a88d44b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3e6d2d3ec8a441779fbf54d22b5913d1.setIcon(icon_59866beca2a24bb29a85c122a88d44b2);
+        
+    
+        var popup_efe12a187d1745bcb67949b02cb4b85a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c61b59ccc7014c23996971aa0b0f5134 = $(`<div id="html_c61b59ccc7014c23996971aa0b0f5134" style="width: 100.0%; height: 100.0%;">AQI:137 <i>Level:4</i></div>`)[0];
+            popup_efe12a187d1745bcb67949b02cb4b85a.setContent(html_c61b59ccc7014c23996971aa0b0f5134);
+        
+
+        marker_3e6d2d3ec8a441779fbf54d22b5913d1.bindPopup(popup_efe12a187d1745bcb67949b02cb4b85a)
+        ;
+
+        
+    
+    
+            marker_3e6d2d3ec8a441779fbf54d22b5913d1.bindTooltip(
+                `<div>
+                     สำนักงานเขตลาดกระบัง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5727079d030c46a599ca2e7d7cdced42 = L.marker(
+                [13.813578, 100.73208],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_5c295488452c4c76ad17e51379b01c83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5727079d030c46a599ca2e7d7cdced42.setIcon(icon_5c295488452c4c76ad17e51379b01c83);
+        
+    
+        var popup_147cb94c7afb4305b485dfd9d35398d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f33bd13f45a148dfb211fe016868aa0f = $(`<div id="html_f33bd13f45a148dfb211fe016868aa0f" style="width: 100.0%; height: 100.0%;">AQI:91 <i>Level:3</i></div>`)[0];
+            popup_147cb94c7afb4305b485dfd9d35398d8.setContent(html_f33bd13f45a148dfb211fe016868aa0f);
+        
+
+        marker_5727079d030c46a599ca2e7d7cdced42.bindPopup(popup_147cb94c7afb4305b485dfd9d35398d8)
+        ;
+
+        
+    
+    
+            marker_5727079d030c46a599ca2e7d7cdced42.bindTooltip(
+                `<div>
+                     สำนักงานเขตมีนบุรี
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e746bd6481f74c35a3f4c537c6e73796 = L.marker(
+                [13.855362, 100.86267],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_11580006d5c740d0a00f7ab48108a30e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e746bd6481f74c35a3f4c537c6e73796.setIcon(icon_11580006d5c740d0a00f7ab48108a30e);
+        
+    
+        var popup_7442d1a7c38d49fda820412daf3ebdf3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1c50effb40e4ef69d826047833a4f48 = $(`<div id="html_c1c50effb40e4ef69d826047833a4f48" style="width: 100.0%; height: 100.0%;">AQI:100 <i>Level:3</i></div>`)[0];
+            popup_7442d1a7c38d49fda820412daf3ebdf3.setContent(html_c1c50effb40e4ef69d826047833a4f48);
+        
+
+        marker_e746bd6481f74c35a3f4c537c6e73796.bindPopup(popup_7442d1a7c38d49fda820412daf3ebdf3)
+        ;
+
+        
+    
+    
+            marker_e746bd6481f74c35a3f4c537c6e73796.bindTooltip(
+                `<div>
+                     สำนักงานเขตหนองจอก
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95fb03e691674e97b8b00f7f840c7753 = L.marker(
+                [13.695561, 100.647615],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_e070b16875cc44b895d63b3c45458cae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_95fb03e691674e97b8b00f7f840c7753.setIcon(icon_e070b16875cc44b895d63b3c45458cae);
+        
+    
+        var popup_27ca84acb5664e6ca04560394d1408e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b3abad4053f4693954c2088630a08f3 = $(`<div id="html_5b3abad4053f4693954c2088630a08f3" style="width: 100.0%; height: 100.0%;">AQI:109 <i>Level:4</i></div>`)[0];
+            popup_27ca84acb5664e6ca04560394d1408e1.setContent(html_5b3abad4053f4693954c2088630a08f3);
+        
+
+        marker_95fb03e691674e97b8b00f7f840c7753.bindPopup(popup_27ca84acb5664e6ca04560394d1408e1)
+        ;
+
+        
+    
+    
+            marker_95fb03e691674e97b8b00f7f840c7753.bindTooltip(
+                `<div>
+                     สำนักงานเขตประเวศ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96dc3c47bee7441890edd78b0a2302fe = L.marker(
+                [13.70515, 100.48465],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_010caf9483424e9b8853bcc2d496c9c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_96dc3c47bee7441890edd78b0a2302fe.setIcon(icon_010caf9483424e9b8853bcc2d496c9c2);
+        
+    
+        var popup_65d249dc406d4344ba717f67e47c50e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1f488b1515d4925bd20cfc4cc1903f0 = $(`<div id="html_b1f488b1515d4925bd20cfc4cc1903f0" style="width: 100.0%; height: 100.0%;">AQI:114 <i>Level:4</i></div>`)[0];
+            popup_65d249dc406d4344ba717f67e47c50e2.setContent(html_b1f488b1515d4925bd20cfc4cc1903f0);
+        
+
+        marker_96dc3c47bee7441890edd78b0a2302fe.bindPopup(popup_65d249dc406d4344ba717f67e47c50e2)
+        ;
+
+        
+    
+    
+            marker_96dc3c47bee7441890edd78b0a2302fe.bindTooltip(
+                `<div>
+                     สำนักงานเขตธนบุรี
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea2e2a1a43a8494da089df2e9c2a4f7d = L.marker(
+                [13.719705, 100.508782],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_2894f49b86e6467da36ae080af23fc7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea2e2a1a43a8494da089df2e9c2a4f7d.setIcon(icon_2894f49b86e6467da36ae080af23fc7f);
+        
+    
+        var popup_d2cecef5f755480c9b9d54227afb89f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea89e349641444a388eee700a2182075 = $(`<div id="html_ea89e349641444a388eee700a2182075" style="width: 100.0%; height: 100.0%;">AQI:142 <i>Level:4</i></div>`)[0];
+            popup_d2cecef5f755480c9b9d54227afb89f6.setContent(html_ea89e349641444a388eee700a2182075);
+        
+
+        marker_ea2e2a1a43a8494da089df2e9c2a4f7d.bindPopup(popup_d2cecef5f755480c9b9d54227afb89f6)
+        ;
+
+        
+    
+    
+            marker_ea2e2a1a43a8494da089df2e9c2a4f7d.bindTooltip(
+                `<div>
+                     สำนักงานเขตคลองสาน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08f7a1ef9a244769b9e5397791efaeae = L.marker(
+                [13.729431, 100.474373],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_37b76d09f9b6431d9cef14b5d1497e85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_08f7a1ef9a244769b9e5397791efaeae.setIcon(icon_37b76d09f9b6431d9cef14b5d1497e85);
+        
+    
+        var popup_12789693fa9f453f9fd2e5d351344535 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bb7b7a1cf7d4ffe9b944e97795026a2 = $(`<div id="html_7bb7b7a1cf7d4ffe9b944e97795026a2" style="width: 100.0%; height: 100.0%;">AQI:82 <i>Level:3</i></div>`)[0];
+            popup_12789693fa9f453f9fd2e5d351344535.setContent(html_7bb7b7a1cf7d4ffe9b944e97795026a2);
+        
+
+        marker_08f7a1ef9a244769b9e5397791efaeae.bindPopup(popup_12789693fa9f453f9fd2e5d351344535)
+        ;
+
+        
+    
+    
+            marker_08f7a1ef9a244769b9e5397791efaeae.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางกอกใหญ่
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_775f9e9075d342539f5652fbfcd2a348 = L.marker(
+                [13.759619, 100.481137],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_1825e8f87692453dafc3dfbdf3c8bc74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_775f9e9075d342539f5652fbfcd2a348.setIcon(icon_1825e8f87692453dafc3dfbdf3c8bc74);
+        
+    
+        var popup_7bd7b5690e474b2590037fde6a4d6985 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_329faceb8ef14d13b33ea6bce53dcfa2 = $(`<div id="html_329faceb8ef14d13b33ea6bce53dcfa2" style="width: 100.0%; height: 100.0%;">AQI:139 <i>Level:4</i></div>`)[0];
+            popup_7bd7b5690e474b2590037fde6a4d6985.setContent(html_329faceb8ef14d13b33ea6bce53dcfa2);
+        
+
+        marker_775f9e9075d342539f5652fbfcd2a348.bindPopup(popup_7bd7b5690e474b2590037fde6a4d6985)
+        ;
+
+        
+    
+    
+            marker_775f9e9075d342539f5652fbfcd2a348.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางกอกน้อย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e547ade062d41c6ae1862a82e46b9fc = L.marker(
+                [13.780778, 100.426727],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_21d211f956924b98b3a87c4a87fd25d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2e547ade062d41c6ae1862a82e46b9fc.setIcon(icon_21d211f956924b98b3a87c4a87fd25d9);
+        
+    
+        var popup_2dbdc81dc0584606b903d2540ba29b75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8966087098d843aa8561d1b63ff3d96a = $(`<div id="html_8966087098d843aa8561d1b63ff3d96a" style="width: 100.0%; height: 100.0%;">AQI:84 <i>Level:3</i></div>`)[0];
+            popup_2dbdc81dc0584606b903d2540ba29b75.setContent(html_8966087098d843aa8561d1b63ff3d96a);
+        
+
+        marker_2e547ade062d41c6ae1862a82e46b9fc.bindPopup(popup_2dbdc81dc0584606b903d2540ba29b75)
+        ;
+
+        
+    
+    
+            marker_2e547ade062d41c6ae1862a82e46b9fc.bindTooltip(
+                `<div>
+                     สำนักงานเขตตลิ่งชัน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f086489169484850801e4466cf3695ff = L.marker(
+                [13.746257, 100.355099],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_2c240dd52659480c992d48dbd78d4b73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f086489169484850801e4466cf3695ff.setIcon(icon_2c240dd52659480c992d48dbd78d4b73);
+        
+    
+        var popup_79a9c29926af444180979574eff86be1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_439af51ef80d48309a870a5c749a81ad = $(`<div id="html_439af51ef80d48309a870a5c749a81ad" style="width: 100.0%; height: 100.0%;">AQI:100 <i>Level:3</i></div>`)[0];
+            popup_79a9c29926af444180979574eff86be1.setContent(html_439af51ef80d48309a870a5c749a81ad);
+        
+
+        marker_f086489169484850801e4466cf3695ff.bindPopup(popup_79a9c29926af444180979574eff86be1)
+        ;
+
+        
+    
+    
+            marker_f086489169484850801e4466cf3695ff.bindTooltip(
+                `<div>
+                     สำนักงานเขตทวีวัฒนา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93604c509b3a4595a1f7506427439167 = L.marker(
+                [13.718689, 100.45391],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_93de353859634f9ea25dcfc666f7f9d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_93604c509b3a4595a1f7506427439167.setIcon(icon_93de353859634f9ea25dcfc666f7f9d3);
+        
+    
+        var popup_2eafc61af38143f4a2add503a59d4ac4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_512f03a0222e42e3ab76900ce90a8e3a = $(`<div id="html_512f03a0222e42e3ab76900ce90a8e3a" style="width: 100.0%; height: 100.0%;">AQI:149 <i>Level:4</i></div>`)[0];
+            popup_2eafc61af38143f4a2add503a59d4ac4.setContent(html_512f03a0222e42e3ab76900ce90a8e3a);
+        
+
+        marker_93604c509b3a4595a1f7506427439167.bindPopup(popup_2eafc61af38143f4a2add503a59d4ac4)
+        ;
+
+        
+    
+    
+            marker_93604c509b3a4595a1f7506427439167.bindTooltip(
+                `<div>
+                     สำนักงานเขตภาษีเจริญ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97c5d8802d8b4326a149b2e4b2afdb0d = L.marker(
+                [13.705582, 100.343164],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_397e6e4316d542558d99b042218acae4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_97c5d8802d8b4326a149b2e4b2afdb0d.setIcon(icon_397e6e4316d542558d99b042218acae4);
+        
+    
+        var popup_3f9d475e34334bddb2b02475da5d6cad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ede59a0c95c49fb892e3c446d6f7cbf = $(`<div id="html_5ede59a0c95c49fb892e3c446d6f7cbf" style="width: 100.0%; height: 100.0%;">AQI:130 <i>Level:4</i></div>`)[0];
+            popup_3f9d475e34334bddb2b02475da5d6cad.setContent(html_5ede59a0c95c49fb892e3c446d6f7cbf);
+        
+
+        marker_97c5d8802d8b4326a149b2e4b2afdb0d.bindPopup(popup_3f9d475e34334bddb2b02475da5d6cad)
+        ;
+
+        
+    
+    
+            marker_97c5d8802d8b4326a149b2e4b2afdb0d.bindTooltip(
+                `<div>
+                     สำนักงานเขตหนองแขม
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7516f4c83e2c49d8ac35bdef0b018b27 = L.marker(
+                [13.639165, 100.372958],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_40ebfc3588e8486a921c7411c9e2a7ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7516f4c83e2c49d8ac35bdef0b018b27.setIcon(icon_40ebfc3588e8486a921c7411c9e2a7ec);
+        
+    
+        var popup_76177c21e5fc4cb8834f84c407869375 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d12c1c044d046039d6a0916751901c5 = $(`<div id="html_9d12c1c044d046039d6a0916751901c5" style="width: 100.0%; height: 100.0%;">AQI:82 <i>Level:3</i></div>`)[0];
+            popup_76177c21e5fc4cb8834f84c407869375.setContent(html_9d12c1c044d046039d6a0916751901c5);
+        
+
+        marker_7516f4c83e2c49d8ac35bdef0b018b27.bindPopup(popup_76177c21e5fc4cb8834f84c407869375)
+        ;
+
+        
+    
+    
+            marker_7516f4c83e2c49d8ac35bdef0b018b27.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางบอน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_259856709b1d4989999f807907edc0a3 = L.marker(
+                [13.651004, 100.496673],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_8def53e2f28a4a92847a0397646268c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_259856709b1d4989999f807907edc0a3.setIcon(icon_8def53e2f28a4a92847a0397646268c0);
+        
+    
+        var popup_ac29701f685d4d8a8a69af8ea87fa483 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_510c0d7d743146a681ccfd9aea27304b = $(`<div id="html_510c0d7d743146a681ccfd9aea27304b" style="width: 100.0%; height: 100.0%;">AQI:82 <i>Level:3</i></div>`)[0];
+            popup_ac29701f685d4d8a8a69af8ea87fa483.setContent(html_510c0d7d743146a681ccfd9aea27304b);
+        
+
+        marker_259856709b1d4989999f807907edc0a3.bindPopup(popup_ac29701f685d4d8a8a69af8ea87fa483)
+        ;
+
+        
+    
+    
+            marker_259856709b1d4989999f807907edc0a3.bindTooltip(
+                `<div>
+                     สำนักงานเขตทุ่งครุ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_520050acee7042de86d816ea3dc93df0 = L.marker(
+                [13.748878, 100.502562],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_2cf136da34bf492da1c318415a8472b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_520050acee7042de86d816ea3dc93df0.setIcon(icon_2cf136da34bf492da1c318415a8472b1);
+        
+    
+        var popup_9b58674fb1ca4bfda9ecd6685bf43c26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f704c5c86a164de2a1cb3771dee7cb5e = $(`<div id="html_f704c5c86a164de2a1cb3771dee7cb5e" style="width: 100.0%; height: 100.0%;">AQI:162 <i>Level:4</i></div>`)[0];
+            popup_9b58674fb1ca4bfda9ecd6685bf43c26.setContent(html_f704c5c86a164de2a1cb3771dee7cb5e);
+        
+
+        marker_520050acee7042de86d816ea3dc93df0.bindPopup(popup_9b58674fb1ca4bfda9ecd6685bf43c26)
+        ;
+
+        
+    
+    
+            marker_520050acee7042de86d816ea3dc93df0.bindTooltip(
+                `<div>
+                     สำนักงานเขตพระนคร
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8af7e39d4b34398901708810ac4d5b0 = L.marker(
+                [13.77682, 100.579543],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_5208b65a16324299a7d46976da7483bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a8af7e39d4b34398901708810ac4d5b0.setIcon(icon_5208b65a16324299a7d46976da7483bf);
+        
+    
+        var popup_7939cf18c8894c6598287fd42be991ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e142d16b0b804ad8a035974cf449fc57 = $(`<div id="html_e142d16b0b804ad8a035974cf449fc57" style="width: 100.0%; height: 100.0%;">AQI:76 <i>Level:3</i></div>`)[0];
+            popup_7939cf18c8894c6598287fd42be991ae.setContent(html_e142d16b0b804ad8a035974cf449fc57);
+        
+
+        marker_a8af7e39d4b34398901708810ac4d5b0.bindPopup(popup_7939cf18c8894c6598287fd42be991ae)
+        ;
+
+        
+    
+    
+            marker_a8af7e39d4b34398901708810ac4d5b0.bindTooltip(
+                `<div>
+                     สำนักงานเขตห้วยขวาง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fe9555d659048a3b821fc509b4ed21c = L.marker(
+                [13.708488, 100.583747],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_3171dc9c9f6f47b399100865d86fe773 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2fe9555d659048a3b821fc509b4ed21c.setIcon(icon_3171dc9c9f6f47b399100865d86fe773);
+        
+    
+        var popup_20e75e00d5c746f795da71d882b95f06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_301734d3f33045bf94808ba04222aa70 = $(`<div id="html_301734d3f33045bf94808ba04222aa70" style="width: 100.0%; height: 100.0%;">AQI:142 <i>Level:4</i></div>`)[0];
+            popup_20e75e00d5c746f795da71d882b95f06.setContent(html_301734d3f33045bf94808ba04222aa70);
+        
+
+        marker_2fe9555d659048a3b821fc509b4ed21c.bindPopup(popup_20e75e00d5c746f795da71d882b95f06)
+        ;
+
+        
+    
+    
+            marker_2fe9555d659048a3b821fc509b4ed21c.bindTooltip(
+                `<div>
+                     สำนักงานเขตคลองเตย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c447c52d19e4379adc33dc190a93492 = L.marker(
+                [13.809596, 100.537883],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_8836c2c6815648d8b61df537413e2911 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c447c52d19e4379adc33dc190a93492.setIcon(icon_8836c2c6815648d8b61df537413e2911);
+        
+    
+        var popup_a39571fd49394908aba59f997968dbb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_194afcddf83348bab5545e89761f0056 = $(`<div id="html_194afcddf83348bab5545e89761f0056" style="width: 100.0%; height: 100.0%;">AQI:121 <i>Level:4</i></div>`)[0];
+            popup_a39571fd49394908aba59f997968dbb7.setContent(html_194afcddf83348bab5545e89761f0056);
+        
+
+        marker_9c447c52d19e4379adc33dc190a93492.bindPopup(popup_a39571fd49394908aba59f997968dbb7)
+        ;
+
+        
+    
+    
+            marker_9c447c52d19e4379adc33dc190a93492.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางซื่อ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59fca7bd6e9c47c6bb83ff977a4ae6d4 = L.marker(
+                [13.803587, 100.607535],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_907104ff70c34f3b89aedc6c382a9e15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_59fca7bd6e9c47c6bb83ff977a4ae6d4.setIcon(icon_907104ff70c34f3b89aedc6c382a9e15);
+        
+    
+        var popup_464b040c3ecc432ab28ce02c5a16748f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dcadbd7367640b68f1aed6cf12c7b09 = $(`<div id="html_9dcadbd7367640b68f1aed6cf12c7b09" style="width: 100.0%; height: 100.0%;">AQI:71 <i>Level:3</i></div>`)[0];
+            popup_464b040c3ecc432ab28ce02c5a16748f.setContent(html_9dcadbd7367640b68f1aed6cf12c7b09);
+        
+
+        marker_59fca7bd6e9c47c6bb83ff977a4ae6d4.bindPopup(popup_464b040c3ecc432ab28ce02c5a16748f)
+        ;
+
+        
+    
+    
+            marker_59fca7bd6e9c47c6bb83ff977a4ae6d4.bindTooltip(
+                `<div>
+                     สำนักงานเขตลาดพร้าว
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8fea7993ee044a0b74d02e066064514 = L.marker(
+                [13.887395, 100.579247],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_9101b40871cf47a28c04fcbcaa7e9920 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a8fea7993ee044a0b74d02e066064514.setIcon(icon_9101b40871cf47a28c04fcbcaa7e9920);
+        
+    
+        var popup_c3c6a9bfb17a4a57a8b09cc3cd7e5a2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d7f3ac5f4674a438c7a33f0e3f60a58 = $(`<div id="html_9d7f3ac5f4674a438c7a33f0e3f60a58" style="width: 100.0%; height: 100.0%;">AQI:154 <i>Level:4</i></div>`)[0];
+            popup_c3c6a9bfb17a4a57a8b09cc3cd7e5a2f.setContent(html_9d7f3ac5f4674a438c7a33f0e3f60a58);
+        
+
+        marker_a8fea7993ee044a0b74d02e066064514.bindPopup(popup_c3c6a9bfb17a4a57a8b09cc3cd7e5a2f)
+        ;
+
+        
+    
+    
+            marker_a8fea7993ee044a0b74d02e066064514.bindTooltip(
+                `<div>
+                     สำนักงานเขตหลักสี่
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_349b0a7c323647aa88867b83272177e1 = L.marker(
+                [13.873603, 100.595839],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_e01a319c24e3419286f3ed8f8bc96f33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_349b0a7c323647aa88867b83272177e1.setIcon(icon_e01a319c24e3419286f3ed8f8bc96f33);
+        
+    
+        var popup_bf7e18e0381c41279ce28a0f681b3dee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea5b064b671f457bbf3a67bdd0f7b5c9 = $(`<div id="html_ea5b064b671f457bbf3a67bdd0f7b5c9" style="width: 100.0%; height: 100.0%;">AQI:170 <i>Level:4</i></div>`)[0];
+            popup_bf7e18e0381c41279ce28a0f681b3dee.setContent(html_ea5b064b671f457bbf3a67bdd0f7b5c9);
+        
+
+        marker_349b0a7c323647aa88867b83272177e1.bindPopup(popup_bf7e18e0381c41279ce28a0f681b3dee)
+        ;
+
+        
+    
+    
+            marker_349b0a7c323647aa88867b83272177e1.bindTooltip(
+                `<div>
+                     สำนักงานเขตบางเขน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef489d803bc64953992ebca58d55cad6 = L.marker(
+                [13.768892, 100.685743],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_cf7491e9d6b64160a73552e33a86ab08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ef489d803bc64953992ebca58d55cad6.setIcon(icon_cf7491e9d6b64160a73552e33a86ab08);
+        
+    
+        var popup_3b828f905fb84d12934f9e4202c381ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5b757f5f8fa48c281f74f8f005ac091 = $(`<div id="html_e5b757f5f8fa48c281f74f8f005ac091" style="width: 100.0%; height: 100.0%;">AQI:84 <i>Level:3</i></div>`)[0];
+            popup_3b828f905fb84d12934f9e4202c381ac.setContent(html_e5b757f5f8fa48c281f74f8f005ac091);
+        
+
+        marker_ef489d803bc64953992ebca58d55cad6.bindPopup(popup_3b828f905fb84d12934f9e4202c381ac)
+        ;
+
+        
+    
+    
+            marker_ef489d803bc64953992ebca58d55cad6.bindTooltip(
+                `<div>
+                     สำนักงานเขตสะพานสูง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bb15c0f76e345daaa9908c6da1f5dcf = L.marker(
+                [14.022425, 99.536118],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_69151d495f71444e81cb84b1d1a2577f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0bb15c0f76e345daaa9908c6da1f5dcf.setIcon(icon_69151d495f71444e81cb84b1d1a2577f);
+        
+    
+        var popup_f526b5888b2144f5bdd60b57b70ce6fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75a950887ab94eb39d70231cf553ffc2 = $(`<div id="html_75a950887ab94eb39d70231cf553ffc2" style="width: 100.0%; height: 100.0%;">AQI:170 <i>Level:4</i></div>`)[0];
+            popup_f526b5888b2144f5bdd60b57b70ce6fb.setContent(html_75a950887ab94eb39d70231cf553ffc2);
+        
+
+        marker_0bb15c0f76e345daaa9908c6da1f5dcf.bindPopup(popup_f526b5888b2144f5bdd60b57b70ce6fb)
+        ;
+
+        
+    
+    
+            marker_0bb15c0f76e345daaa9908c6da1f5dcf.bindTooltip(
+                `<div>
+                     สถานีอุตุนิยมวิทยา จ.กาญจนบุรี
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c11b1c9f19a4a0daaffa042ade5788a = L.marker(
+                [16.445329, 102.835251],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_444d361fde9a4aecb3ea2392d75ab738 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6c11b1c9f19a4a0daaffa042ade5788a.setIcon(icon_444d361fde9a4aecb3ea2392d75ab738);
+        
+    
+        var popup_f73061ed5f414c19b3cd8062529ef9f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55939afd1a424a27977fbb980c1ee579 = $(`<div id="html_55939afd1a424a27977fbb980c1ee579" style="width: 100.0%; height: 100.0%;">AQI:100 <i>Level:3</i></div>`)[0];
+            popup_f73061ed5f414c19b3cd8062529ef9f8.setContent(html_55939afd1a424a27977fbb980c1ee579);
+        
+
+        marker_6c11b1c9f19a4a0daaffa042ade5788a.bindPopup(popup_f73061ed5f414c19b3cd8062529ef9f8)
+        ;
+
+        
+    
+    
+            marker_6c11b1c9f19a4a0daaffa042ade5788a.bindTooltip(
+                `<div>
+                     ส่วนอุทกวิทยา สำนักงานทรัพยากรน้ำภาคที่4 ขอนแก่น
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_434d901f1f184541a0feff0d425b2781 = L.marker(
+                [13.588554, 101.286359],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_2479c21df61347f782be846cb6991b8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_434d901f1f184541a0feff0d425b2781.setIcon(icon_2479c21df61347f782be846cb6991b8f);
+        
+    
+        var popup_0897be7c6aff49088befa420cb2b6c05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c58ad603023a480189895ea14fed51e0 = $(`<div id="html_c58ad603023a480189895ea14fed51e0" style="width: 100.0%; height: 100.0%;">AQI:101 <i>Level:4</i></div>`)[0];
+            popup_0897be7c6aff49088befa420cb2b6c05.setContent(html_c58ad603023a480189895ea14fed51e0);
+        
+
+        marker_434d901f1f184541a0feff0d425b2781.bindPopup(popup_0897be7c6aff49088befa420cb2b6c05)
+        ;
+
+        
+    
+    
+            marker_434d901f1f184541a0feff0d425b2781.bindTooltip(
+                `<div>
+                     สำนักงานเทศบาลตำบลทุ่งสะเดา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_404ef2bbbb194d33aa03050d9da5d7da = L.marker(
+                [13.119214, 100.918596],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_e6276190145c4c46bc21e195769a598e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_404ef2bbbb194d33aa03050d9da5d7da.setIcon(icon_e6276190145c4c46bc21e195769a598e);
+        
+    
+        var popup_76c4d612547841628dc3ecfa44599a91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_971a770cc7b1469999d39eb664bb6008 = $(`<div id="html_971a770cc7b1469999d39eb664bb6008" style="width: 100.0%; height: 100.0%;">AQI:121 <i>Level:4</i></div>`)[0];
+            popup_76c4d612547841628dc3ecfa44599a91.setContent(html_971a770cc7b1469999d39eb664bb6008);
+        
+
+        marker_404ef2bbbb194d33aa03050d9da5d7da.bindPopup(popup_76c4d612547841628dc3ecfa44599a91)
+        ;
+
+        
+    
+    
+            marker_404ef2bbbb194d33aa03050d9da5d7da.bindTooltip(
+                `<div>
+                     สนามกีฬาเทศบาลแหลมฉบัง 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ee84db34bcf445991029feb0ff3fb89 = L.marker(
+                [13.054551, 101.098128],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_968eee2c2f6b415d87a66c94dc29b949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3ee84db34bcf445991029feb0ff3fb89.setIcon(icon_968eee2c2f6b415d87a66c94dc29b949);
+        
+    
+        var popup_f5c7909fd6df4eb68513c964bcaab634 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3708f229eb68478b975e2c6bb85cb086 = $(`<div id="html_3708f229eb68478b975e2c6bb85cb086" style="width: 100.0%; height: 100.0%;">AQI:128 <i>Level:4</i></div>`)[0];
+            popup_f5c7909fd6df4eb68513c964bcaab634.setContent(html_3708f229eb68478b975e2c6bb85cb086);
+        
+
+        marker_3ee84db34bcf445991029feb0ff3fb89.bindPopup(popup_f5c7909fd6df4eb68513c964bcaab634)
+        ;
+
+        
+    
+    
+            marker_3ee84db34bcf445991029feb0ff3fb89.bindTooltip(
+                `<div>
+                     โรงพยาบาลส่งเสริมสุขภาพตำบลบ้านเขาหิน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d01bbe1ad9f745b985630a696d4ae47b = L.marker(
+                [13.355065, 100.977777],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_0b85f2c190c543b6b9ebb87bc9669e65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d01bbe1ad9f745b985630a696d4ae47b.setIcon(icon_0b85f2c190c543b6b9ebb87bc9669e65);
+        
+    
+        var popup_c16f95219a484badbb95929a458dfa9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99ea934a75cc44edb720ca1f35880595 = $(`<div id="html_99ea934a75cc44edb720ca1f35880595" style="width: 100.0%; height: 100.0%;">AQI:116 <i>Level:4</i></div>`)[0];
+            popup_c16f95219a484badbb95929a458dfa9d.setContent(html_99ea934a75cc44edb720ca1f35880595);
+        
+
+        marker_d01bbe1ad9f745b985630a696d4ae47b.bindPopup(popup_c16f95219a484badbb95929a458dfa9d)
+        ;
+
+        
+    
+    
+            marker_d01bbe1ad9f745b985630a696d4ae47b.bindTooltip(
+                `<div>
+                     สำนักงานสิ่งแวดล้อมภาคที่ 13 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7048939c37c0408ea57f4d54ea33481d = L.marker(
+                [16.750102, 98.591312],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_64051dec3aad4c39960baa52436c6ded = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7048939c37c0408ea57f4d54ea33481d.setIcon(icon_64051dec3aad4c39960baa52436c6ded);
+        
+    
+        var popup_a93dcc51cf104c768b75bc1cb88b67b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6adcda94363049fda651eee86475adb6 = $(`<div id="html_6adcda94363049fda651eee86475adb6" style="width: 100.0%; height: 100.0%;">AQI:119 <i>Level:4</i></div>`)[0];
+            popup_a93dcc51cf104c768b75bc1cb88b67b2.setContent(html_6adcda94363049fda651eee86475adb6);
+        
+
+        marker_7048939c37c0408ea57f4d54ea33481d.bindPopup(popup_a93dcc51cf104c768b75bc1cb88b67b2)
+        ;
+
+        
+    
+    
+            marker_7048939c37c0408ea57f4d54ea33481d.bindTooltip(
+                `<div>
+                     ศูนย์การศึกษานอกโรงเรียน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55e7d6a38030492ab51eb1f67522c022 = L.marker(
+                [13.832076, 100.057961],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_189f7337199743b5992052e49364543b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_55e7d6a38030492ab51eb1f67522c022.setIcon(icon_189f7337199743b5992052e49364543b);
+        
+    
+        var popup_16f1ccb87a4c4832aa79caa37eca4792 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6e397391de24b15b7103688ab4e401b = $(`<div id="html_e6e397391de24b15b7103688ab4e401b" style="width: 100.0%; height: 100.0%;">AQI:159 <i>Level:4</i></div>`)[0];
+            popup_16f1ccb87a4c4832aa79caa37eca4792.setContent(html_e6e397391de24b15b7103688ab4e401b);
+        
+
+        marker_55e7d6a38030492ab51eb1f67522c022.bindPopup(popup_16f1ccb87a4c4832aa79caa37eca4792)
+        ;
+
+        
+    
+    
+            marker_55e7d6a38030492ab51eb1f67522c022.bindTooltip(
+                `<div>
+                     อ่างเก็บน้ำประปา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a888dac3b8df44a59b5302c74a39821b = L.marker(
+                [14.979726, 102.098301],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_38a016cbd0ab4f67822ecbbe11e97871 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a888dac3b8df44a59b5302c74a39821b.setIcon(icon_38a016cbd0ab4f67822ecbbe11e97871);
+        
+    
+        var popup_4d01d76804d94484a12fd281524753a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50742f57487f4508bb70f899e6b53350 = $(`<div id="html_50742f57487f4508bb70f899e6b53350" style="width: 100.0%; height: 100.0%;">AQI:63 <i>Level:3</i></div>`)[0];
+            popup_4d01d76804d94484a12fd281524753a4.setContent(html_50742f57487f4508bb70f899e6b53350);
+        
+
+        marker_a888dac3b8df44a59b5302c74a39821b.bindPopup(popup_4d01d76804d94484a12fd281524753a4)
+        ;
+
+        
+    
+    
+            marker_a888dac3b8df44a59b5302c74a39821b.bindTooltip(
+                `<div>
+                     สถานีสูบน้ำประตูพลแสน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99f9330f0b7447aea05ddaa70f182f27 = L.marker(
+                [15.686254, 100.110542],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_996b8a284c5c4f1f9a1b1383f24d27fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_99f9330f0b7447aea05ddaa70f182f27.setIcon(icon_996b8a284c5c4f1f9a1b1383f24d27fb);
+        
+    
+        var popup_8a083c1d7699463b88f81ba5c076fad0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf1043c5fb9944c48e787a20c194a93f = $(`<div id="html_bf1043c5fb9944c48e787a20c194a93f" style="width: 100.0%; height: 100.0%;">AQI:109 <i>Level:4</i></div>`)[0];
+            popup_8a083c1d7699463b88f81ba5c076fad0.setContent(html_bf1043c5fb9944c48e787a20c194a93f);
+        
+
+        marker_99f9330f0b7447aea05ddaa70f182f27.bindPopup(popup_8a083c1d7699463b88f81ba5c076fad0)
+        ;
+
+        
+    
+    
+            marker_99f9330f0b7447aea05ddaa70f182f27.bindTooltip(
+                `<div>
+                     โครงการชลประทานนครสวรรค์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e213c74e2224d7f9d64f5858d63e3bf = L.marker(
+                [13.807156, 100.506319],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_a0367c6975f74d519a58aafbf8069109 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8e213c74e2224d7f9d64f5858d63e3bf.setIcon(icon_a0367c6975f74d519a58aafbf8069109);
+        
+    
+        var popup_6bfce727522e42daaa63abb922c6852f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74b14e14dff24a15a83b4d8604fd0c2a = $(`<div id="html_74b14e14dff24a15a83b4d8604fd0c2a" style="width: 100.0%; height: 100.0%;">AQI:111 <i>Level:4</i></div>`)[0];
+            popup_6bfce727522e42daaa63abb922c6852f.setContent(html_74b14e14dff24a15a83b4d8604fd0c2a);
+        
+
+        marker_8e213c74e2224d7f9d64f5858d63e3bf.bindPopup(popup_6bfce727522e42daaa63abb922c6852f)
+        ;
+
+        
+    
+    
+            marker_8e213c74e2224d7f9d64f5858d63e3bf.bindTooltip(
+                `<div>
+                     การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60c27f451dc94d34a347ecbb152737e2 = L.marker(
+                [13.90794, 100.535599],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_fcb17d80c6364548b5e1b071196454b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_60c27f451dc94d34a347ecbb152737e2.setIcon(icon_fcb17d80c6364548b5e1b071196454b6);
+        
+    
+        var popup_b414d16ca2274773b3217a587fe2474c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a44ba61c031d437b9f4cbbeaecdbabf6 = $(`<div id="html_a44ba61c031d437b9f4cbbeaecdbabf6" style="width: 100.0%; height: 100.0%;">AQI:124 <i>Level:4</i></div>`)[0];
+            popup_b414d16ca2274773b3217a587fe2474c.setContent(html_a44ba61c031d437b9f4cbbeaecdbabf6);
+        
+
+        marker_60c27f451dc94d34a347ecbb152737e2.bindPopup(popup_b414d16ca2274773b3217a587fe2474c)
+        ;
+
+        
+    
+    
+            marker_60c27f451dc94d34a347ecbb152737e2.bindTooltip(
+                `<div>
+                     มหาวิทยาลัยสุโขทัยธรรมาธิราช 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22991a154cd5472d9ea8d98efba17ec2 = L.marker(
+                [6.426885, 101.823005],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_46966a7c819447e88b155300fef948bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22991a154cd5472d9ea8d98efba17ec2.setIcon(icon_46966a7c819447e88b155300fef948bb);
+        
+    
+        var popup_5aa204672a214391aaa1c0cf4088d28e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e40669a2e3a3411597508af93fc495a8 = $(`<div id="html_e40669a2e3a3411597508af93fc495a8" style="width: 100.0%; height: 100.0%;">AQI:21 <i>Level:1</i></div>`)[0];
+            popup_5aa204672a214391aaa1c0cf4088d28e.setContent(html_e40669a2e3a3411597508af93fc495a8);
+        
+
+        marker_22991a154cd5472d9ea8d98efba17ec2.bindPopup(popup_5aa204672a214391aaa1c0cf4088d28e)
+        ;
+
+        
+    
+    
+            marker_22991a154cd5472d9ea8d98efba17ec2.bindTooltip(
+                `<div>
+                     ศาลากลางจังหวัดนราธิวาส 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e52ec06ee4c46e183ae8126bbde5bfc = L.marker(
+                [18.788878, 100.776359],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_9b8b1320d77a42ebaf2e4f2c4096b863 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7e52ec06ee4c46e183ae8126bbde5bfc.setIcon(icon_9b8b1320d77a42ebaf2e4f2c4096b863);
+        
+    
+        var popup_743d99c260704876a3c9b98f1dc6e939 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_208a6d0dabf142e6885a9801d7350f8a = $(`<div id="html_208a6d0dabf142e6885a9801d7350f8a" style="width: 100.0%; height: 100.0%;">AQI:37 <i>Level:2</i></div>`)[0];
+            popup_743d99c260704876a3c9b98f1dc6e939.setContent(html_208a6d0dabf142e6885a9801d7350f8a);
+        
+
+        marker_7e52ec06ee4c46e183ae8126bbde5bfc.bindPopup(popup_743d99c260704876a3c9b98f1dc6e939)
+        ;
+
+        
+    
+    
+            marker_7e52ec06ee4c46e183ae8126bbde5bfc.bindTooltip(
+                `<div>
+                     สำนักงานเทศบาลเมืองน่าน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de57338f52f24a50a10d95df71a2fb65 = L.marker(
+                [19.32238, 101.025365],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_286e4329f72143858ca92f0c93a386fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_de57338f52f24a50a10d95df71a2fb65.setIcon(icon_286e4329f72143858ca92f0c93a386fb);
+        
+    
+        var popup_86dfe62011c2499aab8d169b744a0de8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7433ad8653d6480baf3da3d858b586f6 = $(`<div id="html_7433ad8653d6480baf3da3d858b586f6" style="width: 100.0%; height: 100.0%;">AQI:35 <i>Level:2</i></div>`)[0];
+            popup_86dfe62011c2499aab8d169b744a0de8.setContent(html_7433ad8653d6480baf3da3d858b586f6);
+        
+
+        marker_de57338f52f24a50a10d95df71a2fb65.bindPopup(popup_86dfe62011c2499aab8d169b744a0de8)
+        ;
+
+        
+    
+    
+            marker_de57338f52f24a50a10d95df71a2fb65.bindTooltip(
+                `<div>
+                     โรงพยาบาลเฉลิมพระเกียรติ 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a607a68a368e46ee9d5f7b8f11f82496 = L.marker(
+                [14.037512, 100.605124],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_e4ae463dca4c446ab32aff513250e95e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a607a68a368e46ee9d5f7b8f11f82496.setIcon(icon_e4ae463dca4c446ab32aff513250e95e);
+        
+    
+        var popup_f7535c4c8670424d8f905b5ec8a236c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2372c83b065e46fdb45e5defa44bca99 = $(`<div id="html_2372c83b065e46fdb45e5defa44bca99" style="width: 100.0%; height: 100.0%;">AQI:134 <i>Level:4</i></div>`)[0];
+            popup_f7535c4c8670424d8f905b5ec8a236c4.setContent(html_2372c83b065e46fdb45e5defa44bca99);
+        
+
+        marker_a607a68a368e46ee9d5f7b8f11f82496.bindPopup(popup_f7535c4c8670424d8f905b5ec8a236c4)
+        ;
+
+        
+    
+    
+            marker_a607a68a368e46ee9d5f7b8f11f82496.bindTooltip(
+                `<div>
+                     มหาวิทยาลัยกรุงเทพ วิทยาเขตรังสิต 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9d7fa79ed714144a985c0cffdccde60 = L.marker(
+                [13.934197, 101.58696],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_caf999deb6b34aa2bc2081cfdf440ab9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f9d7fa79ed714144a985c0cffdccde60.setIcon(icon_caf999deb6b34aa2bc2081cfdf440ab9);
+        
+    
+        var popup_3954c401840e4503b1970679c881a572 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_293676461a8e459ba6a1e4c49e182f26 = $(`<div id="html_293676461a8e459ba6a1e4c49e182f26" style="width: 100.0%; height: 100.0%;">AQI:67 <i>Level:3</i></div>`)[0];
+            popup_3954c401840e4503b1970679c881a572.setContent(html_293676461a8e459ba6a1e4c49e182f26);
+        
+
+        marker_f9d7fa79ed714144a985c0cffdccde60.bindPopup(popup_3954c401840e4503b1970679c881a572)
+        ;
+
+        
+    
+    
+            marker_f9d7fa79ed714144a985c0cffdccde60.bindTooltip(
+                `<div>
+                     ศาลาประชาคมบ้านบุยายใบ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0560e06a770f4ac296a6c32cf7d67dfb = L.marker(
+                [14.352225, 100.565352],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_ea9adbd9411240798919fa62d1cb2ef7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0560e06a770f4ac296a6c32cf7d67dfb.setIcon(icon_ea9adbd9411240798919fa62d1cb2ef7);
+        
+    
+        var popup_143013c92a8a497f82857bc7b4c168e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d7a608cde794db6a3591ef998dbbc01 = $(`<div id="html_9d7a608cde794db6a3591ef998dbbc01" style="width: 100.0%; height: 100.0%;">AQI:126 <i>Level:4</i></div>`)[0];
+            popup_143013c92a8a497f82857bc7b4c168e7.setContent(html_9d7a608cde794db6a3591ef998dbbc01);
+        
+
+        marker_0560e06a770f4ac296a6c32cf7d67dfb.bindPopup(popup_143013c92a8a497f82857bc7b4c168e7)
+        ;
+
+        
+    
+    
+            marker_0560e06a770f4ac296a6c32cf7d67dfb.bindTooltip(
+                `<div>
+                     โรงเรียนอยุธยาวิทยาลัย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9643991b8fa4e848abf5e6eda3bc4d7 = L.marker(
+                [19.200226, 99.893048],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_0706131a6ccc47508c7a658a4c93cd52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d9643991b8fa4e848abf5e6eda3bc4d7.setIcon(icon_0706131a6ccc47508c7a658a4c93cd52);
+        
+    
+        var popup_ebe09848b48a4519926337dc87d26a32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c1e9cb924034e94a0e2802744fb5015 = $(`<div id="html_8c1e9cb924034e94a0e2802744fb5015" style="width: 100.0%; height: 100.0%;">AQI:111 <i>Level:4</i></div>`)[0];
+            popup_ebe09848b48a4519926337dc87d26a32.setContent(html_8c1e9cb924034e94a0e2802744fb5015);
+        
+
+        marker_d9643991b8fa4e848abf5e6eda3bc4d7.bindPopup(popup_ebe09848b48a4519926337dc87d26a32)
+        ;
+
+        
+    
+    
+            marker_d9643991b8fa4e848abf5e6eda3bc4d7.bindTooltip(
+                `<div>
+                     สนามกีฬาจังหวัดพะเยา
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0445d38ffbb24d659a969b1ce2259195 = L.marker(
+                [7.884508, 98.391318],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_18b300f3ae0746cca385830a89ddd299 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0445d38ffbb24d659a969b1ce2259195.setIcon(icon_18b300f3ae0746cca385830a89ddd299);
+        
+    
+        var popup_203440eede3e4fc995189009ed780d75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50b63c2626c74fd4a2d6b36880c5f92e = $(`<div id="html_50b63c2626c74fd4a2d6b36880c5f92e" style="width: 100.0%; height: 100.0%;">AQI:18 <i>Level:1</i></div>`)[0];
+            popup_203440eede3e4fc995189009ed780d75.setContent(html_50b63c2626c74fd4a2d6b36880c5f92e);
+        
+
+        marker_0445d38ffbb24d659a969b1ce2259195.bindPopup(popup_203440eede3e4fc995189009ed780d75)
+        ;
+
+        
+    
+    
+            marker_0445d38ffbb24d659a969b1ce2259195.bindTooltip(
+                `<div>
+                     ศูนย์บริการสาธารณสุขเทศบาลภูเก็ต
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80e2136867f944a38db37271058e57a2 = L.marker(
+                [6.546197, 101.2831],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_959aab29fc514fa6b1112f88326466a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_80e2136867f944a38db37271058e57a2.setIcon(icon_959aab29fc514fa6b1112f88326466a6);
+        
+    
+        var popup_f2d56502771e4dcc8b7d5f59fbfd8fae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b41b28f2365f4533959af7863415b052 = $(`<div id="html_b41b28f2365f4533959af7863415b052" style="width: 100.0%; height: 100.0%;">AQI:21 <i>Level:1</i></div>`)[0];
+            popup_f2d56502771e4dcc8b7d5f59fbfd8fae.setContent(html_b41b28f2365f4533959af7863415b052);
+        
+
+        marker_80e2136867f944a38db37271058e57a2.bindPopup(popup_f2d56502771e4dcc8b7d5f59fbfd8fae)
+        ;
+
+        
+    
+    
+            marker_80e2136867f944a38db37271058e57a2.bindTooltip(
+                `<div>
+                     สนามโรงพิธีช้างเผือก 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37af8f05b8c24f4e8b357f2ebd3b04c8 = L.marker(
+                [5.763873, 101.067903],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_3a5ddf28a8fa4f79935d13629fdfe7b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_37af8f05b8c24f4e8b357f2ebd3b04c8.setIcon(icon_3a5ddf28a8fa4f79935d13629fdfe7b0);
+        
+    
+        var popup_9e98eaa0148045b6bac406302d95f647 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab402b168a69477d9bd697fc53710cf5 = $(`<div id="html_ab402b168a69477d9bd697fc53710cf5" style="width: 100.0%; height: 100.0%;">AQI:13 <i>Level:1</i></div>`)[0];
+            popup_9e98eaa0148045b6bac406302d95f647.setContent(html_ab402b168a69477d9bd697fc53710cf5);
+        
+
+        marker_37af8f05b8c24f4e8b357f2ebd3b04c8.bindPopup(popup_9e98eaa0148045b6bac406302d95f647)
+        ;
+
+        
+    
+    
+            marker_37af8f05b8c24f4e8b357f2ebd3b04c8.bindTooltip(
+                `<div>
+                     กองศึกษาเทศบาลเมืองเบตง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35354a77a03147e5a42b00911e62e620 = L.marker(
+                [12.97378, 101.212844],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_1c832f7d6c164d6e8bc09de262ecaf8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_35354a77a03147e5a42b00911e62e620.setIcon(icon_1c832f7d6c164d6e8bc09de262ecaf8f);
+        
+    
+        var popup_f60b8400dd124add8b359fae9483b63b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8968bc779ba44f91a753820dc2c479e8 = $(`<div id="html_8968bc779ba44f91a753820dc2c479e8" style="width: 100.0%; height: 100.0%;">AQI:106 <i>Level:4</i></div>`)[0];
+            popup_f60b8400dd124add8b359fae9483b63b.setContent(html_8968bc779ba44f91a753820dc2c479e8);
+        
+
+        marker_35354a77a03147e5a42b00911e62e620.bindPopup(popup_f60b8400dd124add8b359fae9483b63b)
+        ;
+
+        
+    
+    
+            marker_35354a77a03147e5a42b00911e62e620.bindTooltip(
+                `<div>
+                     สำนักงานสาธารณสุขอำเภอปลวกแดง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27e0c06b9a8a416b89eeaa907ad05832 = L.marker(
+                [12.70862, 101.166055],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_5c4dcfa8f0444718af83ab5e3f57aa40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_27e0c06b9a8a416b89eeaa907ad05832.setIcon(icon_5c4dcfa8f0444718af83ab5e3f57aa40);
+        
+    
+        var popup_79451dd97dd84a20b7e82892efa79f4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63af12bd8ac04451a6b62067ebedf672 = $(`<div id="html_63af12bd8ac04451a6b62067ebedf672" style="width: 100.0%; height: 100.0%;">AQI:92 <i>Level:3</i></div>`)[0];
+            popup_79451dd97dd84a20b7e82892efa79f4f.setContent(html_63af12bd8ac04451a6b62067ebedf672);
+        
+
+        marker_27e0c06b9a8a416b89eeaa907ad05832.bindPopup(popup_79451dd97dd84a20b7e82892efa79f4f)
+        ;
+
+        
+    
+    
+            marker_27e0c06b9a8a416b89eeaa907ad05832.bindTooltip(
+                `<div>
+                     โรงพยาบาลส่งเสริมสุขภาพตำบลมาบตาพุด 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe71868a33944391a4bdcae3d746aa40 = L.marker(
+                [12.671521, 101.275875],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_4ee39fc339dc4d91b4610cc4369b36a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fe71868a33944391a4bdcae3d746aa40.setIcon(icon_4ee39fc339dc4d91b4610cc4369b36a5);
+        
+    
+        var popup_b788f596c3ae4528be6539ccd4f52f81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4f392b6f35f421e83467db80a78352c = $(`<div id="html_c4f392b6f35f421e83467db80a78352c" style="width: 100.0%; height: 100.0%;">AQI:84 <i>Level:3</i></div>`)[0];
+            popup_b788f596c3ae4528be6539ccd4f52f81.setContent(html_c4f392b6f35f421e83467db80a78352c);
+        
+
+        marker_fe71868a33944391a4bdcae3d746aa40.bindPopup(popup_b788f596c3ae4528be6539ccd4f52f81)
+        ;
+
+        
+    
+    
+            marker_fe71868a33944391a4bdcae3d746aa40.bindTooltip(
+                `<div>
+                     สำนักงานเกษตรจังหวัดระยอง 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b55e17673d9458198b6d8384b15ab1c = L.marker(
+                [12.735114, 101.13562],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_796d5e8dce0c480393932d6bc7cf8b93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7b55e17673d9458198b6d8384b15ab1c.setIcon(icon_796d5e8dce0c480393932d6bc7cf8b93);
+        
+    
+        var popup_7a5adc5aa99e4a65a28e3096b58de414 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c37b8b29b52436a91049872f57ceea5 = $(`<div id="html_7c37b8b29b52436a91049872f57ceea5" style="width: 100.0%; height: 100.0%;">AQI:92 <i>Level:3</i></div>`)[0];
+            popup_7a5adc5aa99e4a65a28e3096b58de414.setContent(html_7c37b8b29b52436a91049872f57ceea5);
+        
+
+        marker_7b55e17673d9458198b6d8384b15ab1c.bindPopup(popup_7a5adc5aa99e4a65a28e3096b58de414)
+        ;
+
+        
+    
+    
+            marker_7b55e17673d9458198b6d8384b15ab1c.bindTooltip(
+                `<div>
+                     ศูนย์วิจัยพืชไร่ระยอง 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d151127f78f94ecbbbad1ad861962a68 = L.marker(
+                [12.706325, 101.180975],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_fb0a5ee5448146f3a45cc5b1b63b9e5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d151127f78f94ecbbbad1ad861962a68.setIcon(icon_fb0a5ee5448146f3a45cc5b1b63b9e5c);
+        
+    
+        var popup_083ab770154d458a8c51330fe7ac5071 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a1e89cc4e984690bad03d11168fbcf7 = $(`<div id="html_8a1e89cc4e984690bad03d11168fbcf7" style="width: 100.0%; height: 100.0%;">AQI:104 <i>Level:4</i></div>`)[0];
+            popup_083ab770154d458a8c51330fe7ac5071.setContent(html_8a1e89cc4e984690bad03d11168fbcf7);
+        
+
+        marker_d151127f78f94ecbbbad1ad861962a68.bindPopup(popup_083ab770154d458a8c51330fe7ac5071)
+        ;
+
+        
+    
+    
+            marker_d151127f78f94ecbbbad1ad861962a68.bindTooltip(
+                `<div>
+                     ศูนย์ราชการจังหวัดระยอง 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0096fa78ba614108bd7402ff1734108d = L.marker(
+                [12.648576, 101.32245],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_b0d893a682af4a13b052b44c5e6b0d43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0096fa78ba614108bd7402ff1734108d.setIcon(icon_b0d893a682af4a13b052b44c5e6b0d43);
+        
+    
+        var popup_8e416a9103d141a88205f40cc375db94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca766b0662594a949b942bd2f11ef8a1 = $(`<div id="html_ca766b0662594a949b942bd2f11ef8a1" style="width: 100.0%; height: 100.0%;">AQI:100 <i>Level:3</i></div>`)[0];
+            popup_8e416a9103d141a88205f40cc375db94.setContent(html_ca766b0662594a949b942bd2f11ef8a1);
+        
+
+        marker_0096fa78ba614108bd7402ff1734108d.bindPopup(popup_8e416a9103d141a88205f40cc375db94)
+        ;
+
+        
+    
+    
+            marker_0096fa78ba614108bd7402ff1734108d.bindTooltip(
+                `<div>
+                     ค่ายสุรสิงหนาท
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e708e3dd83644b4b4f9814966251400 = L.marker(
+                [13.532555, 99.814873],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_cc8eb1c5dd2849c8aafde37b221ab22e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7e708e3dd83644b4b4f9814966251400.setIcon(icon_cc8eb1c5dd2849c8aafde37b221ab22e);
+        
+    
+        var popup_9d4e33e5b8a34cab911339d711913ec8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c74f6060de64ed5920b8d3aaabaf5de = $(`<div id="html_1c74f6060de64ed5920b8d3aaabaf5de" style="width: 100.0%; height: 100.0%;">AQI:195 <i>Level:4</i></div>`)[0];
+            popup_9d4e33e5b8a34cab911339d711913ec8.setContent(html_1c74f6060de64ed5920b8d3aaabaf5de);
+        
+
+        marker_7e708e3dd83644b4b4f9814966251400.bindPopup(popup_9d4e33e5b8a34cab911339d711913ec8)
+        ;
+
+        
+    
+    
+            marker_7e708e3dd83644b4b4f9814966251400.bindTooltip(
+                `<div>
+                     สำนักงานสิ่งแวดล้อมภาคที่8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e800b7148aac462392cf648f347fdd38 = L.marker(
+                [18.278251, 99.506447],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_664840652557421bb5ceca403e1822f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e800b7148aac462392cf648f347fdd38.setIcon(icon_664840652557421bb5ceca403e1822f1);
+        
+    
+        var popup_c4730c602f314b06a29c7601e2801d56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_874ce96fc12943218674ab5097214500 = $(`<div id="html_874ce96fc12943218674ab5097214500" style="width: 100.0%; height: 100.0%;">AQI:139 <i>Level:4</i></div>`)[0];
+            popup_c4730c602f314b06a29c7601e2801d56.setContent(html_874ce96fc12943218674ab5097214500);
+        
+
+        marker_e800b7148aac462392cf648f347fdd38.bindPopup(popup_c4730c602f314b06a29c7601e2801d56)
+        ;
+
+        
+    
+    
+            marker_e800b7148aac462392cf648f347fdd38.bindTooltip(
+                `<div>
+                     สถานีอุตุนิยมวิทยาลำปาง
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e5310bb18d54aa39c03ec47872faef7 = L.marker(
+                [18.250747, 99.763986],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_2378a60fb8054b9185ba2f0e13ef016f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9e5310bb18d54aa39c03ec47872faef7.setIcon(icon_2378a60fb8054b9185ba2f0e13ef016f);
+        
+    
+        var popup_f1c312dd81dd46dcafed22ae7d907d76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_408fb62b47d0430d960753a1693bd8b7 = $(`<div id="html_408fb62b47d0430d960753a1693bd8b7" style="width: 100.0%; height: 100.0%;">AQI:109 <i>Level:4</i></div>`)[0];
+            popup_f1c312dd81dd46dcafed22ae7d907d76.setContent(html_408fb62b47d0430d960753a1693bd8b7);
+        
+
+        marker_9e5310bb18d54aa39c03ec47872faef7.bindPopup(popup_f1c312dd81dd46dcafed22ae7d907d76)
+        ;
+
+        
+    
+    
+            marker_9e5310bb18d54aa39c03ec47872faef7.bindTooltip(
+                `<div>
+                     โรงพยาบาลส่งเสริมสุขภาพตำบลบ้านสบป้าด 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1a54680167540bf9a4a8d997182d9b9 = L.marker(
+                [18.419425, 99.727046],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_9352ccf24dc84da4aacedfd8c93d9ff3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c1a54680167540bf9a4a8d997182d9b9.setIcon(icon_9352ccf24dc84da4aacedfd8c93d9ff3);
+        
+    
+        var popup_3055239d7e28425b9580d319c6e0b1c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9df641e8f5fe4943943b8056a70317b9 = $(`<div id="html_9df641e8f5fe4943943b8056a70317b9" style="width: 100.0%; height: 100.0%;">AQI:121 <i>Level:4</i></div>`)[0];
+            popup_3055239d7e28425b9580d319c6e0b1c0.setContent(html_9df641e8f5fe4943943b8056a70317b9);
+        
+
+        marker_c1a54680167540bf9a4a8d997182d9b9.bindPopup(popup_3055239d7e28425b9580d319c6e0b1c0)
+        ;
+
+        
+    
+    
+            marker_c1a54680167540bf9a4a8d997182d9b9.bindTooltip(
+                `<div>
+                     โรงพยาบาลส่งเสริมสุขภาพตำบลท่าสี 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c45375b4661486988fbb2b871841d6b = L.marker(
+                [18.282664, 99.659873],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_323006dbf43a454aa8f41778b092c1c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c45375b4661486988fbb2b871841d6b.setIcon(icon_323006dbf43a454aa8f41778b092c1c0);
+        
+    
+        var popup_f5e7a96755fb494bb8bb453d9fa1d740 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c08a6c12bfae479ba0297a37378eec48 = $(`<div id="html_c08a6c12bfae479ba0297a37378eec48" style="width: 100.0%; height: 100.0%;">AQI:114 <i>Level:4</i></div>`)[0];
+            popup_f5e7a96755fb494bb8bb453d9fa1d740.setContent(html_c08a6c12bfae479ba0297a37378eec48);
+        
+
+        marker_9c45375b4661486988fbb2b871841d6b.bindPopup(popup_f5e7a96755fb494bb8bb453d9fa1d740)
+        ;
+
+        
+    
+    
+            marker_9c45375b4661486988fbb2b871841d6b.bindTooltip(
+                `<div>
+                     การประปาส่วนภูมิภาคแม่เมาะ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1d2b34ce88e46a29da9cefb4ca754a5 = L.marker(
+                [18.567179, 99.03856],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_8e16091e116a48fea024ff5b2a4bc0cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1d2b34ce88e46a29da9cefb4ca754a5.setIcon(icon_8e16091e116a48fea024ff5b2a4bc0cb);
+        
+    
+        var popup_c05d91ff178b4bf38223edb9dfebd718 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6218505576b640b8851d213ee4e3981b = $(`<div id="html_6218505576b640b8851d213ee4e3981b" style="width: 100.0%; height: 100.0%;">AQI:157 <i>Level:4</i></div>`)[0];
+            popup_c05d91ff178b4bf38223edb9dfebd718.setContent(html_6218505576b640b8851d213ee4e3981b);
+        
+
+        marker_b1d2b34ce88e46a29da9cefb4ca754a5.bindPopup(popup_c05d91ff178b4bf38223edb9dfebd718)
+        ;
+
+        
+    
+    
+            marker_b1d2b34ce88e46a29da9cefb4ca754a5.bindTooltip(
+                `<div>
+                     อุตุนิยมวิทยาลำพูน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bff7fbb9939f477483b4e4f2157f31cc = L.marker(
+                [7.020545, 100.48404],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_0b1de93a3b634cb9a11a52337662e625 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bff7fbb9939f477483b4e4f2157f31cc.setIcon(icon_0b1de93a3b634cb9a11a52337662e625);
+        
+    
+        var popup_d2dc4ad305d2467ca185dcc7eee6e681 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e00c167bed248ecbc00ae2b453d5f80 = $(`<div id="html_2e00c167bed248ecbc00ae2b453d5f80" style="width: 100.0%; height: 100.0%;">AQI:18 <i>Level:1</i></div>`)[0];
+            popup_d2dc4ad305d2467ca185dcc7eee6e681.setContent(html_2e00c167bed248ecbc00ae2b453d5f80);
+        
+
+        marker_bff7fbb9939f477483b4e4f2157f31cc.bindPopup(popup_d2dc4ad305d2467ca185dcc7eee6e681)
+        ;
+
+        
+    
+    
+            marker_bff7fbb9939f477483b4e4f2157f31cc.bindTooltip(
+                `<div>
+                     เทศบาลนครหาดใหญ่ 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_382d3cb318764520b22dae45cd0cf342 = L.marker(
+                [6.624686, 100.066212],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_b7aad26bf9ad45dcbc8533647f006aba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_382d3cb318764520b22dae45cd0cf342.setIcon(icon_b7aad26bf9ad45dcbc8533647f006aba);
+        
+    
+        var popup_1cd9ec906de743c8976ec0ae1ced1929 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea1b0a99d2f049ee95ba6f7b48ad5cab = $(`<div id="html_ea1b0a99d2f049ee95ba6f7b48ad5cab" style="width: 100.0%; height: 100.0%;">AQI:16 <i>Level:1</i></div>`)[0];
+            popup_1cd9ec906de743c8976ec0ae1ced1929.setContent(html_ea1b0a99d2f049ee95ba6f7b48ad5cab);
+        
+
+        marker_382d3cb318764520b22dae45cd0cf342.bindPopup(popup_1cd9ec906de743c8976ec0ae1ced1929)
+        ;
+
+        
+    
+    
+            marker_382d3cb318764520b22dae45cd0cf342.bindTooltip(
+                `<div>
+                     ศาลากลาง จ.สตูล
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a119cb025588459c9c82b72b1f92d094 = L.marker(
+                [13.664023, 100.543406],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_42463ffd6b4d4d56bf5fb695088bca5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a119cb025588459c9c82b72b1f92d094.setIcon(icon_42463ffd6b4d4d56bf5fb695088bca5c);
+        
+    
+        var popup_f3b827ff9ba241cda57e35b895bea2cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c88995b6d4e4b5fbd61eac70875dbc0 = $(`<div id="html_8c88995b6d4e4b5fbd61eac70875dbc0" style="width: 100.0%; height: 100.0%;">AQI:137 <i>Level:4</i></div>`)[0];
+            popup_f3b827ff9ba241cda57e35b895bea2cf.setContent(html_8c88995b6d4e4b5fbd61eac70875dbc0);
+        
+
+        marker_a119cb025588459c9c82b72b1f92d094.bindPopup(popup_f3b827ff9ba241cda57e35b895bea2cf)
+        ;
+
+        
+    
+    
+            marker_a119cb025588459c9c82b72b1f92d094.bindTooltip(
+                `<div>
+                     ศูนย์ฟื้นฟูอาชีพคนพิการและทุพลภาพ 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50acb14e5fa040e6bbf1f33d65fb0fbf = L.marker(
+                [13.617982, 100.556246],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_a03605c3b26649db93ecb6f71ce10a72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_50acb14e5fa040e6bbf1f33d65fb0fbf.setIcon(icon_a03605c3b26649db93ecb6f71ce10a72);
+        
+    
+        var popup_8dfed1c79bb24c228e892d1f65abeae7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e20914f4a2ca40dcb5baf88f31cfab4b = $(`<div id="html_e20914f4a2ca40dcb5baf88f31cfab4b" style="width: 100.0%; height: 100.0%;">AQI:96 <i>Level:3</i></div>`)[0];
+            popup_8dfed1c79bb24c228e892d1f65abeae7.setContent(html_e20914f4a2ca40dcb5baf88f31cfab4b);
+        
+
+        marker_50acb14e5fa040e6bbf1f33d65fb0fbf.bindPopup(popup_8dfed1c79bb24c228e892d1f65abeae7)
+        ;
+
+        
+    
+    
+            marker_50acb14e5fa040e6bbf1f33d65fb0fbf.bindTooltip(
+                `<div>
+                     โรงไฟฟ้าพระนครใต้ 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10bb3283688c402786147d1c274fcd80 = L.marker(
+                [13.652154, 100.53184],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_e63ad750f0404d3bab1f7def505c94b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_10bb3283688c402786147d1c274fcd80.setIcon(icon_e63ad750f0404d3bab1f7def505c94b0);
+        
+    
+        var popup_2d9bc59cab08413e89645946c109c91d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f4a8bc4cde54fa782a4ad66b70a89cf = $(`<div id="html_9f4a8bc4cde54fa782a4ad66b70a89cf" style="width: 100.0%; height: 100.0%;">AQI:106 <i>Level:4</i></div>`)[0];
+            popup_2d9bc59cab08413e89645946c109c91d.setContent(html_9f4a8bc4cde54fa782a4ad66b70a89cf);
+        
+
+        marker_10bb3283688c402786147d1c274fcd80.bindPopup(popup_2d9bc59cab08413e89645946c109c91d)
+        ;
+
+        
+    
+    
+            marker_10bb3283688c402786147d1c274fcd80.bindTooltip(
+                `<div>
+                     บ้านพักกรมอุตสาหกรรมพื้นฐานและการเหมืองแร่
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49d6df131ea04b6282a5e10b8a49a40a = L.marker(
+                [13.599172, 100.597332],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_78fa3b8832b745fd850cda79ed59e623 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_49d6df131ea04b6282a5e10b8a49a40a.setIcon(icon_78fa3b8832b745fd850cda79ed59e623);
+        
+    
+        var popup_632be248dc8d4581bbd5074704d8df64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bca19c8fac894982bb3d57493fdc935b = $(`<div id="html_bca19c8fac894982bb3d57493fdc935b" style="width: 100.0%; height: 100.0%;">AQI:134 <i>Level:4</i></div>`)[0];
+            popup_632be248dc8d4581bbd5074704d8df64.setContent(html_bca19c8fac894982bb3d57493fdc935b);
+        
+
+        marker_49d6df131ea04b6282a5e10b8a49a40a.bindPopup(popup_632be248dc8d4581bbd5074704d8df64)
+        ;
+
+        
+    
+    
+            marker_49d6df131ea04b6282a5e10b8a49a40a.bindTooltip(
+                `<div>
+                     ศาลากลางจังหวัดสมุทรปราการ 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d698bd579a43488186fbeb1e88cec272 = L.marker(
+                [13.570333, 100.785866],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_2a12042ef7ad418a810a51c1caefcc4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d698bd579a43488186fbeb1e88cec272.setIcon(icon_2a12042ef7ad418a810a51c1caefcc4f);
+        
+    
+        var popup_54a2ebaf2f6245009c01a5b12450d917 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41375e1304ca476f8beec77c7e875fb2 = $(`<div id="html_41375e1304ca476f8beec77c7e875fb2" style="width: 100.0%; height: 100.0%;">AQI:114 <i>Level:4</i></div>`)[0];
+            popup_54a2ebaf2f6245009c01a5b12450d917.setContent(html_41375e1304ca476f8beec77c7e875fb2);
+        
+
+        marker_d698bd579a43488186fbeb1e88cec272.bindPopup(popup_54a2ebaf2f6245009c01a5b12450d917)
+        ;
+
+        
+    
+    
+            marker_d698bd579a43488186fbeb1e88cec272.bindTooltip(
+                `<div>
+                     การเคหะชุมชนเมืองใหม่บางพลี 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05d42cb4362943919d1f63e1748c01a0 = L.marker(
+                [13.705458, 100.315675],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_39f5ec4ea387422c82af77555ad759b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_05d42cb4362943919d1f63e1748c01a0.setIcon(icon_39f5ec4ea387422c82af77555ad759b1);
+        
+    
+        var popup_d6c0404c56934a0a858bfdf87bd4d5fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b318159c9e64fa9a4210d98bdd69581 = $(`<div id="html_2b318159c9e64fa9a4210d98bdd69581" style="width: 100.0%; height: 100.0%;">AQI:159 <i>Level:4</i></div>`)[0];
+            popup_d6c0404c56934a0a858bfdf87bd4d5fd.setContent(html_2b318159c9e64fa9a4210d98bdd69581);
+        
+
+        marker_05d42cb4362943919d1f63e1748c01a0.bindPopup(popup_d6c0404c56934a0a858bfdf87bd4d5fd)
+        ;
+
+        
+    
+    
+            marker_05d42cb4362943919d1f63e1748c01a0.bindTooltip(
+                `<div>
+                     แขวงการทางสมุทรสาคร 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d79eae497b04cbbb25c6552acbc5a63 = L.marker(
+                [13.550478, 100.264254],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_7b2df44aab044eec94d7f756c45de528 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7d79eae497b04cbbb25c6552acbc5a63.setIcon(icon_7b2df44aab044eec94d7f756c45de528);
+        
+    
+        var popup_962b79f249aa4605bf9bfa73ea9c742c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0819febe48a94348ba580561fd78ede1 = $(`<div id="html_0819febe48a94348ba580561fd78ede1" style="width: 100.0%; height: 100.0%;">AQI:177 <i>Level:4</i></div>`)[0];
+            popup_962b79f249aa4605bf9bfa73ea9c742c.setContent(html_0819febe48a94348ba580561fd78ede1);
+        
+
+        marker_7d79eae497b04cbbb25c6552acbc5a63.bindPopup(popup_962b79f249aa4605bf9bfa73ea9c742c)
+        ;
+
+        
+    
+    
+            marker_7d79eae497b04cbbb25c6552acbc5a63.bindTooltip(
+                `<div>
+                     โรงเรียนสมุทรสาครวิทยาลัย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b69dcdcdfad4c52a6d5d95a617eb430 = L.marker(
+                [14.685833, 100.871996],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_dc91b6317a534ade9eaff1c458779d19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_1b69dcdcdfad4c52a6d5d95a617eb430.setIcon(icon_dc91b6317a534ade9eaff1c458779d19);
+        
+    
+        var popup_25032aa734134d0382d8e4a1f7b57981 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adbbd6de5721498b9311c81618c2959a = $(`<div id="html_adbbd6de5721498b9311c81618c2959a" style="width: 100.0%; height: 100.0%;">AQI:230 <i>Level:5</i></div>`)[0];
+            popup_25032aa734134d0382d8e4a1f7b57981.setContent(html_adbbd6de5721498b9311c81618c2959a);
+        
+
+        marker_1b69dcdcdfad4c52a6d5d95a617eb430.bindPopup(popup_25032aa734134d0382d8e4a1f7b57981)
+        ;
+
+        
+    
+    
+            marker_1b69dcdcdfad4c52a6d5d95a617eb430.bindTooltip(
+                `<div>
+                     สถานีตำรวจภูธรตำบลหน้าพระลาน 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dea8dda37bcc418283fc0f9314659239 = L.marker(
+                [14.526302, 100.926128],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_9ec76f12503248feb1cfaad8f808bc27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dea8dda37bcc418283fc0f9314659239.setIcon(icon_9ec76f12503248feb1cfaad8f808bc27);
+        
+    
+        var popup_72c0bc549b444156860e3cdc663f0e6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a9f043975f0410ba0b787f2165b61d2 = $(`<div id="html_1a9f043975f0410ba0b787f2165b61d2" style="width: 100.0%; height: 100.0%;">AQI:121 <i>Level:4</i></div>`)[0];
+            popup_72c0bc549b444156860e3cdc663f0e6c.setContent(html_1a9f043975f0410ba0b787f2165b61d2);
+        
+
+        marker_dea8dda37bcc418283fc0f9314659239.bindPopup(popup_72c0bc549b444156860e3cdc663f0e6c)
+        ;
+
+        
+    
+    
+            marker_dea8dda37bcc418283fc0f9314659239.bindTooltip(
+                `<div>
+                     สถานีดับเพลิงพระลักษณ์
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dd4307693634808b4e40efec492d8dc = L.marker(
+                [13.692122, 102.502124],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_7e708a4c46614e6b92e48a32efa54f06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5dd4307693634808b4e40efec492d8dc.setIcon(icon_7e708a4c46614e6b92e48a32efa54f06);
+        
+    
+        var popup_90a7aa04352e4a82a99ae84f6b6f0d4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d56280386b9b4342b19d24d9d3a2b036 = $(`<div id="html_d56280386b9b4342b19d24d9d3a2b036" style="width: 100.0%; height: 100.0%;">AQI:96 <i>Level:3</i></div>`)[0];
+            popup_90a7aa04352e4a82a99ae84f6b6f0d4b.setContent(html_d56280386b9b4342b19d24d9d3a2b036);
+        
+
+        marker_5dd4307693634808b4e40efec492d8dc.bindPopup(popup_90a7aa04352e4a82a99ae84f6b6f0d4b)
+        ;
+
+        
+    
+    
+            marker_5dd4307693634808b4e40efec492d8dc.bindTooltip(
+                `<div>
+                     โรงเรียนอนุบาลศรีอรัญโญทัย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90a166daadf94d6cb8512e0ffeacea4c = L.marker(
+                [14.513479, 100.129747],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_ce14f1f9e8c14546b6ecd200ea9b40dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_90a166daadf94d6cb8512e0ffeacea4c.setIcon(icon_ce14f1f9e8c14546b6ecd200ea9b40dd);
+        
+    
+        var popup_d16b66d3c6eb4aae88b0aa50413fb56b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69ea643ecac24dd78b8daf81c579d8ce = $(`<div id="html_69ea643ecac24dd78b8daf81c579d8ce" style="width: 100.0%; height: 100.0%;">AQI:167 <i>Level:4</i></div>`)[0];
+            popup_d16b66d3c6eb4aae88b0aa50413fb56b.setContent(html_69ea643ecac24dd78b8daf81c579d8ce);
+        
+
+        marker_90a166daadf94d6cb8512e0ffeacea4c.bindPopup(popup_d16b66d3c6eb4aae88b0aa50413fb56b)
+        ;
+
+        
+    
+    
+            marker_90a166daadf94d6cb8512e0ffeacea4c.bindTooltip(
+                `<div>
+                     ศาลากลางจังหวัดสุพรรณบุรี
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_208ac9b838bc4658aa135786adb6b423 = L.marker(
+                [9.126057, 99.325355],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_2694d658c6f3474bbacfa226571f709f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_208ac9b838bc4658aa135786adb6b423.setIcon(icon_2694d658c6f3474bbacfa226571f709f);
+        
+    
+        var popup_24dbcb1d3ddc40b4b6ddbe860e8233cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef145f4455a84d8dabed314843ccfd9d = $(`<div id="html_ef145f4455a84d8dabed314843ccfd9d" style="width: 100.0%; height: 100.0%;">AQI:19 <i>Level:1</i></div>`)[0];
+            popup_24dbcb1d3ddc40b4b6ddbe860e8233cc.setContent(html_ef145f4455a84d8dabed314843ccfd9d);
+        
+
+        marker_208ac9b838bc4658aa135786adb6b423.bindPopup(popup_24dbcb1d3ddc40b4b6ddbe860e8233cc)
+        ;
+
+        
+    
+    
+            marker_208ac9b838bc4658aa135786adb6b423.bindTooltip(
+                `<div>
+                     สำนักงานสิ่งแวดล้อมภาคที่ 14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af0b990a1865473bbf065d6b07115da1 = L.marker(
+                [19.909242, 99.823357],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_d70249a41386422189cd42f4c5243b42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_af0b990a1865473bbf065d6b07115da1.setIcon(icon_d70249a41386422189cd42f4c5243b42);
+        
+    
+        var popup_edf1614a4ce24c83a72e21598bc807be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_943254dfccff445691e60645ec2fb10e = $(`<div id="html_943254dfccff445691e60645ec2fb10e" style="width: 100.0%; height: 100.0%;">AQI:84 <i>Level:3</i></div>`)[0];
+            popup_edf1614a4ce24c83a72e21598bc807be.setContent(html_943254dfccff445691e60645ec2fb10e);
+        
+
+        marker_af0b990a1865473bbf065d6b07115da1.bindPopup(popup_edf1614a4ce24c83a72e21598bc807be)
+        ;
+
+        
+    
+    
+            marker_af0b990a1865473bbf065d6b07115da1.bindTooltip(
+                `<div>
+                     สำนักงานทรัพยากรธรรมชาติและสิ่งแวดล้อมจังหวัดเชียงราย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8b0e4ace73247a8bf35560e921c5b81 = L.marker(
+                [20.427234, 99.883724],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_2e25baef17824b09a91b5469a337f372 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c8b0e4ace73247a8bf35560e921c5b81.setIcon(icon_2e25baef17824b09a91b5469a337f372);
+        
+    
+        var popup_942020c733674f409237e3c686ca4d35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51dafa8480654223add28d17b5a092d4 = $(`<div id="html_51dafa8480654223add28d17b5a092d4" style="width: 100.0%; height: 100.0%;">AQI:96 <i>Level:3</i></div>`)[0];
+            popup_942020c733674f409237e3c686ca4d35.setContent(html_51dafa8480654223add28d17b5a092d4);
+        
+
+        marker_c8b0e4ace73247a8bf35560e921c5b81.bindPopup(popup_942020c733674f409237e3c686ca4d35)
+        ;
+
+        
+    
+    
+            marker_c8b0e4ace73247a8bf35560e921c5b81.bindTooltip(
+                `<div>
+                     สำนักงานสาธารณสุขแม่สาย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb7dbd52eb784d5288bef2c204e3cbc1 = L.marker(
+                [18.840633, 98.969661],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_ed8d3e5b89684ed39b58bb98746eecf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb7dbd52eb784d5288bef2c204e3cbc1.setIcon(icon_ed8d3e5b89684ed39b58bb98746eecf5);
+        
+    
+        var popup_90c8ab1845094f53bcd0f81c90eb8d48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60193e4fb8604ddfb0387530d2ac2333 = $(`<div id="html_60193e4fb8604ddfb0387530d2ac2333" style="width: 100.0%; height: 100.0%;">AQI:131 <i>Level:4</i></div>`)[0];
+            popup_90c8ab1845094f53bcd0f81c90eb8d48.setContent(html_60193e4fb8604ddfb0387530d2ac2333);
+        
+
+        marker_bb7dbd52eb784d5288bef2c204e3cbc1.bindPopup(popup_90c8ab1845094f53bcd0f81c90eb8d48)
+        ;
+
+        
+    
+    
+            marker_bb7dbd52eb784d5288bef2c204e3cbc1.bindTooltip(
+                `<div>
+                     ศูนย์ราชการจังหวัดเชียงใหม่ 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42001f27320b44639d365da3ff97563f = L.marker(
+                [18.7909205, 98.9881062],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_962a9a1795b04a178535ef165b9e9dd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_42001f27320b44639d365da3ff97563f.setIcon(icon_962a9a1795b04a178535ef165b9e9dd9);
+        
+    
+        var popup_a24aaa0d4cd54c40941c7548310bf779 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e3fc4f7b0804607bf46368a85153950 = $(`<div id="html_4e3fc4f7b0804607bf46368a85153950" style="width: 100.0%; height: 100.0%;">AQI:134 <i>Level:4</i></div>`)[0];
+            popup_a24aaa0d4cd54c40941c7548310bf779.setContent(html_4e3fc4f7b0804607bf46368a85153950);
+        
+
+        marker_42001f27320b44639d365da3ff97563f.bindPopup(popup_a24aaa0d4cd54c40941c7548310bf779)
+        ;
+
+        
+    
+    
+            marker_42001f27320b44639d365da3ff97563f.bindTooltip(
+                `<div>
+                     โรงเรียนยุพราชวิทยาลัย 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4110ae26a7cc43799252ef96bc78f4a0 = L.marker(
+                [18.7876, 98.9934],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_09a8a95a3d3f4843b2faf5ef221f29a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4110ae26a7cc43799252ef96bc78f4a0.setIcon(icon_09a8a95a3d3f4843b2faf5ef221f29a3);
+        
+    
+        var popup_a33725b1d2d8497ab6ee555101a500b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f30ea4d60ca4b09a51c09714bcb3d40 = $(`<div id="html_4f30ea4d60ca4b09a51c09714bcb3d40" style="width: 100.0%; height: 100.0%;">AQI:116 <i>Level:4</i></div>`)[0];
+            popup_a33725b1d2d8497ab6ee555101a500b3.setContent(html_4f30ea4d60ca4b09a51c09714bcb3d40);
+        
+
+        marker_4110ae26a7cc43799252ef96bc78f4a0.bindPopup(popup_a33725b1d2d8497ab6ee555101a500b3)
+        ;
+
+        
+    
+    
+            marker_4110ae26a7cc43799252ef96bc78f4a0.bindTooltip(
+                `<div>
+                     ประตูท่าแพ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bd98b71bd144ee89d0bb9fec1ff3e78 = L.marker(
+                [18.804718, 98.896851],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_0b4429b21c5b4d7c89ca3ca7beb8234e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3bd98b71bd144ee89d0bb9fec1ff3e78.setIcon(icon_0b4429b21c5b4d7c89ca3ca7beb8234e);
+        
+    
+        var popup_de87dc4389284c848b9709f1e88973db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83980472a7394c6a80c988c2491069eb = $(`<div id="html_83980472a7394c6a80c988c2491069eb" style="width: 100.0%; height: 100.0%;">AQI:84 <i>Level:3</i></div>`)[0];
+            popup_de87dc4389284c848b9709f1e88973db.setContent(html_83980472a7394c6a80c988c2491069eb);
+        
+
+        marker_3bd98b71bd144ee89d0bb9fec1ff3e78.bindPopup(popup_de87dc4389284c848b9709f1e88973db)
+        ;
+
+        
+    
+    
+            marker_3bd98b71bd144ee89d0bb9fec1ff3e78.bindTooltip(
+                `<div>
+                     พระตำหนักภูพิงคราชนิเวศน์ (รถโมบาย)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c04eee2a7ac94454a4b18a1fa23a3f2e = L.marker(
+                [17.452765, 101.728715],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_a48212f0ad0041ad9be683b1ffee2461 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c04eee2a7ac94454a4b18a1fa23a3f2e.setIcon(icon_a48212f0ad0041ad9be683b1ffee2461);
+        
+    
+        var popup_b995b48e5e5c43bd95ed264ffb906144 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e15dbd3d0f2460991c7d5dc7f9493cd = $(`<div id="html_9e15dbd3d0f2460991c7d5dc7f9493cd" style="width: 100.0%; height: 100.0%;">AQI:37 <i>Level:2</i></div>`)[0];
+            popup_b995b48e5e5c43bd95ed264ffb906144.setContent(html_9e15dbd3d0f2460991c7d5dc7f9493cd);
+        
+
+        marker_c04eee2a7ac94454a4b18a1fa23a3f2e.bindPopup(popup_b995b48e5e5c43bd95ed264ffb906144)
+        ;
+
+        
+    
+    
+            marker_c04eee2a7ac94454a4b18a1fa23a3f2e.bindTooltip(
+                `<div>
+                     สำนักงานสาธารณสุขจังหวัดเลย
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6dcf5600ccdf4aae845c4d6c489b5891 = L.marker(
+                [18.128928, 100.162345],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_565ed598836540b39119f1a21688d3ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6dcf5600ccdf4aae845c4d6c489b5891.setIcon(icon_565ed598836540b39119f1a21688d3ef);
+        
+    
+        var popup_1279a8b8118441bcb63e18f3e5f2e859 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9dd954c6c6b4634901cfbda96251b95 = $(`<div id="html_f9dd954c6c6b4634901cfbda96251b95" style="width: 100.0%; height: 100.0%;">AQI:129 <i>Level:4</i></div>`)[0];
+            popup_1279a8b8118441bcb63e18f3e5f2e859.setContent(html_f9dd954c6c6b4634901cfbda96251b95);
+        
+
+        marker_6dcf5600ccdf4aae845c4d6c489b5891.bindPopup(popup_1279a8b8118441bcb63e18f3e5f2e859)
+        ;
+
+        
+    
+    
+            marker_6dcf5600ccdf4aae845c4d6c489b5891.bindTooltip(
+                `<div>
+                     อุตุนิยมวิทยาจังหวัดแพร่
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2855baa2e704ebfaaac4fb94589ea9e = L.marker(
+                [19.304686, 97.970999],
+                {}
+            ).addTo(map_c9643599bf8646ee8da1992b3c7e22b4);
+        
+    
+            var icon_a82bb53ab799400faecb64d63949720a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e2855baa2e704ebfaaac4fb94589ea9e.setIcon(icon_a82bb53ab799400faecb64d63949720a);
+        
+    
+        var popup_0ff6f8670a9741df90fa63ae88bc34e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4988bb4d7954bfd875aa48dc63a8aae = $(`<div id="html_c4988bb4d7954bfd875aa48dc63a8aae" style="width: 100.0%; height: 100.0%;">AQI:25 <i>Level:1</i></div>`)[0];
+            popup_0ff6f8670a9741df90fa63ae88bc34e0.setContent(html_c4988bb4d7954bfd875aa48dc63a8aae);
+        
+
+        marker_e2855baa2e704ebfaaac4fb94589ea9e.bindPopup(popup_0ff6f8670a9741df90fa63ae88bc34e0)
+        ;
+
+        
+    
+    
+            marker_e2855baa2e704ebfaaac4fb94589ea9e.bindTooltip(
+                `<div>
+                     สำนักงานทรัพยากรธรรมชาติและสิ่งแวดล้อมจังหวัดแม่ฮ่องสอน
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

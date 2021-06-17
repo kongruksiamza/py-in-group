@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_d6f0ff90633c474fbc3ffb7f9b5819f0 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_d6f0ff90633c474fbc3ffb7f9b5819f0" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_d6f0ff90633c474fbc3ffb7f9b5819f0 = L.map(
+        'map_d6f0ff90633c474fbc3ffb7f9b5819f0', {
+        center: [13.72, 100.63],
+        zoom: 6,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_bd5cf0f99b9b456bb2d30105a06bdf29 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_d6f0ff90633c474fbc3ffb7f9b5819f0);
+    
+        var marker_52af03e06dea4c3aa55579d3c2961bd2 = L.marker(
+            [13.72, 100.63],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d6f0ff90633c474fbc3ffb7f9b5819f0);
+        
+    
+
+                var icon_43da5278efe34711af5081d2fb4b7ec8 = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_52af03e06dea4c3aa55579d3c2961bd2.setIcon(icon_43da5278efe34711af5081d2fb4b7ec8);
+            
+    
+            var popup_29c1e2ec0151408bbe38f5d79f905f23 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bdffa5166e4f4df1801f601e66fb8e6f = $(`<div id="html_bdffa5166e4f4df1801f601e66fb8e6f" style="width: 100.0%; height: 100.0%;"><i>กรุงเทพมหานคร</i></div>`)[0];
+                popup_29c1e2ec0151408bbe38f5d79f905f23.setContent(html_bdffa5166e4f4df1801f601e66fb8e6f);
+            
+
+            marker_52af03e06dea4c3aa55579d3c2961bd2.bindPopup(popup_29c1e2ec0151408bbe38f5d79f905f23)
+            ;
+
+            
+        
+    
+        marker_52af03e06dea4c3aa55579d3c2961bd2.bindTooltip(
+            `<div>`
+            + `คลิกที่นี่` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_8f0525bcc7f347ca981e5cb74a8bb2ae = L.marker(
+            [14, 101],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d6f0ff90633c474fbc3ffb7f9b5819f0);
+        
+    
+
+                var icon_bd85d30cbda6450184fa05ae9018bd6a = L.AwesomeMarkers.icon({
+                    icon: 'cloud',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8f0525bcc7f347ca981e5cb74a8bb2ae.setIcon(icon_bd85d30cbda6450184fa05ae9018bd6a);
+            
+    
+            var popup_365c58f767b146fa932a1c3eb80b2374 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e6b5d6ca413840c9b17ac1c26c98f437 = $(`<div id="html_e6b5d6ca413840c9b17ac1c26c98f437" style="width: 100.0%; height: 100.0%;"><i>นครนายก</i></div>`)[0];
+                popup_365c58f767b146fa932a1c3eb80b2374.setContent(html_e6b5d6ca413840c9b17ac1c26c98f437);
+            
+
+            marker_8f0525bcc7f347ca981e5cb74a8bb2ae.bindPopup(popup_365c58f767b146fa932a1c3eb80b2374)
+            ;
+
+            
+        
+    
+        marker_8f0525bcc7f347ca981e5cb74a8bb2ae.bindTooltip(
+            `<div>`
+            + `คลิกที่นี่` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_dbbbecc28afc4419a5ffe8819209dee0 = L.marker(
+            [14, 100],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d6f0ff90633c474fbc3ffb7f9b5819f0);
+        
+    
+
+                var icon_ac216cd85b234a308b691c0ec5997a45 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dbbbecc28afc4419a5ffe8819209dee0.setIcon(icon_ac216cd85b234a308b691c0ec5997a45);
+            
+    
+            var popup_67667f13a9364ace80b72fafae29f2d4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0745e26bf8da4236aabe3c52546cef60 = $(`<div id="html_0745e26bf8da4236aabe3c52546cef60" style="width: 100.0%; height: 100.0%;"><i>สุพรรณบุรี</i></div>`)[0];
+                popup_67667f13a9364ace80b72fafae29f2d4.setContent(html_0745e26bf8da4236aabe3c52546cef60);
+            
+
+            marker_dbbbecc28afc4419a5ffe8819209dee0.bindPopup(popup_67667f13a9364ace80b72fafae29f2d4)
+            ;
+
+            
+        
+    
+        marker_dbbbecc28afc4419a5ffe8819209dee0.bindTooltip(
+            `<div>`
+            + `คลิกที่นี่` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_96a613451c9647f68b49511b99235784 = L.marker(
+            [15, 100],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_d6f0ff90633c474fbc3ffb7f9b5819f0);
+        
+    
+
+                var icon_7a6254a884134c0c84b84111685c1aa0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_96a613451c9647f68b49511b99235784.setIcon(icon_7a6254a884134c0c84b84111685c1aa0);
+            
+    
+        marker_96a613451c9647f68b49511b99235784.bindTooltip(
+            `<div>`
+            + `คลิกที่นี่` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+                function newMarker(e){
+                    var new_mark = L.marker().setLatLng(e.latlng).addTo(map_d6f0ff90633c474fbc3ffb7f9b5819f0);
+                    new_mark.dragging.enable();
+                    new_mark.on('dblclick', function(e){ map_d6f0ff90633c474fbc3ffb7f9b5819f0.removeLayer(e.target)})
+                    var lat = e.latlng.lat.toFixed(4),
+                       lng = e.latlng.lng.toFixed(4);
+                    new_mark.bindPopup("Waypoint");
+                    };
+                map_d6f0ff90633c474fbc3ffb7f9b5819f0.on('click', newMarker);
+            
+</script>
